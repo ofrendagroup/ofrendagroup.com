@@ -1,0 +1,642 @@
+[
+  {
+      "id": 1500,
+      "name": "AddressType",
+      "description": "Type of Address",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.777",
+      "systemValue": []
+  },
+  {
+      "id": 2000,
+      "name": "UnitedStates",
+      "description": "US States",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.78",
+      "systemValue": []
+  },
+  {
+      "id": 2500,
+      "name": "AuditLog",
+      "description": "AuditLog",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.817",
+      "systemValue": []
+  },
+  {
+      "id": 3000,
+      "name": "AuditType",
+      "description": "Type of Audit",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.82",
+      "systemValue": []
+  },
+  {
+      "id": 3500,
+      "name": "CommentType",
+      "description": "CommentType",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.82",
+      "systemValue": []
+  },
+  {
+      "id": 4000,
+      "name": "ContactType",
+      "description": "ContactType",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.823",
+      "systemValue": []
+  },
+  {
+      "id": 4500,
+      "name": "DepartmentStatus",
+      "description": "DepartmentStatus",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.823",
+      "systemValue": []
+  },
+  {
+      "id": 5000,
+      "name": "EmailTemplateType",
+      "description": "Type of email template",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.827",
+      "systemValue": []
+  },
+  {
+      "id": 5500,
+      "name": "EmailType",
+      "description": "Type of Email",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.83",
+      "systemValue": []
+  },
+  {
+      "id": 6000,
+      "name": "PhoneType",
+      "description": "Type of Phone",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.833",
+      "systemValue": []
+  },
+  {
+      "id": 6500,
+      "name": "EntityType",
+      "description": "Types of Entities within the system.",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.837",
+      "systemValue": []
+  },
+  {
+      "id": 7000,
+      "name": "HospitalType",
+      "description": "Hospital Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.84",
+      "systemValue": []
+  },
+  {
+      "id": 7500,
+      "name": "HospitalStatus",
+      "description": "Hospital Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.84",
+      "systemValue": []
+  },
+  {
+      "id": 8000,
+      "name": "HospitalStaff",
+      "description": "Hospital Staff",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.843",
+      "systemValue": []
+  },
+  {
+      "id": 8500,
+      "name": "PackagedState",
+      "description": "Instrument State",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.843",
+      "systemValue": []
+  },
+  {
+      "id": 9000,
+      "name": "MedicationType",
+      "description": "Medication Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.847",
+      "systemValue": []
+  },
+  {
+      "id": 9500,
+      "name": "OperatingRoomStatus",
+      "description": "OperatingRoom Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.847",
+      "systemValue": []
+  },
+  {
+      "id": 10000,
+      "name": "PatientStatus",
+      "description": "Patient Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.85",
+      "systemValue": []
+  },
+  {
+      "id": 10500,
+      "name": "PatientType",
+      "description": "Patient Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.85",
+      "systemValue": []
+  },
+  {
+      "id": 11000,
+      "name": "PreOpImageType",
+      "description": "PreOpImage Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.853",
+      "systemValue": []
+  },
+  {
+      "id": 11500,
+      "name": "PreOpImageStatus",
+      "description": "PreOp Image Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.853",
+      "systemValue": []
+  },
+  {
+      "id": 12000,
+      "name": "PreOpPlanType",
+      "description": "PreOpPlan Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.857",
+      "systemValue": []
+  },
+  {
+      "id": 12500,
+      "name": "PreOpPlanStatus",
+      "description": "PreOpPlan Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.857",
+      "systemValue": []
+  },
+  {
+      "id": 13000,
+      "name": "PreOpCaseType",
+      "description": "PreOp Case Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.86",
+      "systemValue": []
+  },
+  {
+      "id": 13500,
+      "name": "PreOpReminderType",
+      "description": "PreOp Reminder Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.863",
+      "systemValue": []
+  },
+  {
+      "id": 14000,
+      "name": "PreOpReminderStatus",
+      "description": "PreOp Reminder Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.87",
+      "systemValue": []
+  },
+  {
+      "id": 14500,
+      "name": "PreOpSeriesStatus",
+      "description": "PreOp Series Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.873",
+      "systemValue": []
+  },
+  {
+      "id": 15000,
+      "name": "PreOpStudyStatus",
+      "description": "PreOp Study Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.877",
+      "systemValue": []
+  },
+  {
+      "id": 15500,
+      "name": "ProcedureStatus",
+      "description": "Procedure Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.877",
+      "systemValue": []
+  },
+  {
+      "id": 16000,
+      "name": "ProcedureType",
+      "description": "Procedure Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.88",
+      "systemValue": []
+  },
+  {
+      "id": 16500,
+      "name": "ProcedureCodeStatus",
+      "description": "Procedure Code Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.88",
+      "systemValue": []
+  },
+  {
+      "id": 17000,
+      "name": "ProcedureInstrumentStatus",
+      "description": "Procedure Instrument Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.883",
+      "systemValue": []
+  },
+  {
+      "id": 17500,
+      "name": "ProcedureMedicationStatus",
+      "description": "Procedure Medication Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.887",
+      "systemValue": []
+  },
+  {
+      "id": 18000,
+      "name": "ProcedureSupplyStatus",
+      "description": "Procedure Supply Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.887",
+      "systemValue": []
+  },
+  {
+      "id": 18500,
+      "name": "ProcedureTrayStatus",
+      "description": "Procedure Tray Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.89",
+      "systemValue": []
+  },
+  {
+      "id": 19000,
+      "name": "QuestionnaireType",
+      "description": "Type of question",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.893",
+      "systemValue": []
+  },
+  {
+      "id": 19500,
+      "name": "DataType",
+      "description": "DataType",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.893",
+      "systemValue": []
+  },
+  {
+      "id": 20000,
+      "name": "QuestionnaireAnswerStatus",
+      "description": "Questionnaire Answer Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.9",
+      "systemValue": []
+  },
+  {
+      "id": 20500,
+      "name": "RequestType",
+      "description": "Request type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.9",
+      "systemValue": []
+  },
+  {
+      "id": 21000,
+      "name": "RequestStatus",
+      "description": "Status associated with Request",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.903",
+      "systemValue": []
+  },
+  {
+      "id": 21500,
+      "name": "SupplyStatus",
+      "description": "Supply Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.907",
+      "systemValue": []
+  },
+  {
+      "id": 22000,
+      "name": "SupplyManufacturerStatus",
+      "description": "Supply Manufacturer Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.91",
+      "systemValue": []
+  },
+  {
+      "id": 22500,
+      "name": "StudyStatus",
+      "description": "Study Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.91",
+      "systemValue": []
+  },
+  {
+      "id": 23000,
+      "name": "SurgicalPreOpPlanStatus",
+      "description": "Surgical PreOp Plan Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.913",
+      "systemValue": []
+  },
+  {
+      "id": 23500,
+      "name": "SurgicalStaffStatus",
+      "description": "Surgical Staf Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.917",
+      "systemValue": []
+  },
+  {
+      "id": 24000,
+      "name": "SurgeryStatus",
+      "description": "Statuses associated with the surgery",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.92",
+      "systemValue": []
+  },
+  {
+      "id": 24500,
+      "name": "SurgicalProcedureStatus",
+      "description": "Surgical Procedure Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.923",
+      "systemValue": []
+  },
+  {
+      "id": 25000,
+      "name": "TrayStatus",
+      "description": "Tray Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.923",
+      "systemValue": []
+  },
+  {
+      "id": 25500,
+      "name": "UserType",
+      "description": "Type of users within the system",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.927",
+      "systemValue": []
+  },
+  {
+      "id": 26000,
+      "name": "UserRole",
+      "description": "Role of a user.",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.93",
+      "systemValue": []
+  },
+  {
+      "id": 26500,
+      "name": "UserStatus",
+      "description": "User Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.937",
+      "systemValue": []
+  },
+  {
+      "id": 27000,
+      "name": "UserAuditType",
+      "description": "Audit Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.937",
+      "systemValue": []
+  },
+  {
+      "id": 27500,
+      "name": "UserProfileType",
+      "description": "User Profile Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.94",
+      "systemValue": []
+  },
+  {
+      "id": 28000,
+      "name": "ZoomStatus",
+      "description": "Zoom Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.94",
+      "systemValue": []
+  },
+  {
+      "id": 28500,
+      "name": "Resource",
+      "description": "Type of resources within the system",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.943",
+      "systemValue": []
+  },
+  {
+      "id": 29000,
+      "name": "RedoxRole",
+      "description": "Type of redox role",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.947",
+      "systemValue": []
+  },
+  {
+      "id": 29500,
+      "name": "FileSegmentType",
+      "description": "Type of file segment",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.95",
+      "systemValue": []
+  },
+  {
+      "id": 30000,
+      "name": "ProcedureStage",
+      "description": "Procedure Stages",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.95",
+      "systemValue": []
+  },
+  {
+      "id": 30500,
+      "name": "LocationScope",
+      "description": "Scope of Location",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.953",
+      "systemValue": []
+  },
+  {
+      "id": 31000,
+      "name": "VoiceCommand",
+      "description": "Voice Commands",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.957",
+      "systemValue": []
+  },
+  {
+      "id": 31500,
+      "name": "PediatricOrthopedicManufacturer",
+      "description": "Manufacturer for pediatric orthopedic",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.977",
+      "systemValue": []
+  },
+  {
+      "id": 32000,
+      "name": "SpinalSystem",
+      "description": "Spinal system classification intended for immobilization and stabilization of the posterior, non-cervical spines.",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.977",
+      "systemValue": []
+  },
+  {
+      "id": 32500,
+      "name": "SpinalFusionDeviceInventoryStatus",
+      "description": "Spinal Fusion Device Inventory Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.977",
+      "systemValue": []
+  },
+  {
+      "id": 33000,
+      "name": "SpinalRodMaterial",
+      "description": "Rod Material used in spinal surgery",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.98",
+      "systemValue": []
+  },
+  {
+      "id": 33500,
+      "name": "SpinalFusionDeviceType",
+      "description": "Spinal Fusion Device Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.98",
+      "systemValue": []
+  },
+  {
+      "id": 34000,
+      "name": "SpinalHookTexture",
+      "description": "Spinal Material Texture",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.99",
+      "systemValue": []
+  },
+  {
+      "id": 34500,
+      "name": "SpinalLead",
+      "description": "Spinal Lead",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.99",
+      "systemValue": []
+  },
+  {
+      "id": 35000,
+      "name": "SpinalBodyRigidity",
+      "description": "Spinal Body Rigidity",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.997",
+      "systemValue": []
+  },
+  {
+      "id": 35500,
+      "name": "SpinalCannulaType",
+      "description": "Spinal Cannula Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:52.997",
+      "systemValue": []
+  },
+  {
+      "id": 36000,
+      "name": "SpinalLocation",
+      "description": "Spinal Location",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53",
+      "systemValue": []
+  },
+  {
+      "id": 36500,
+      "name": "SpineReductionType",
+      "description": "Spinal Reduction Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.003",
+      "systemValue": []
+  },
+  {
+      "id": 37000,
+      "name": "PatientIdentifier",
+      "description": "PatientIdentifier",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.007",
+      "systemValue": []
+  },
+  {
+      "id": 37500,
+      "name": "SpinalVertebra",
+      "description": "Spinal Vertebra",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.007",
+      "systemValue": []
+  },
+  {
+      "id": 38000,
+      "name": "SpinalSide",
+      "description": "SpinalSide",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.02",
+      "systemValue": []
+  },
+  {
+      "id": 38500,
+      "name": "SpinalFusionOpType",
+      "description": "Spinal Fusion Op Type",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.023",
+      "systemValue": []
+  },
+  {
+      "id": 39000,
+      "name": "SpinalFusionDeviceStatus",
+      "description": "Spinal Fusion Device Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.027",
+      "systemValue": []
+  },
+  {
+      "id": 39500,
+      "name": "SystemType",
+      "description": "Types of Systems supported by the application",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.027",
+      "systemValue": []
+  },
+  {
+      "id": 40000,
+      "name": "SystemStatus",
+      "description": "System Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.03",
+      "systemValue": []
+  },
+  {
+      "id": 40500,
+      "name": "BomStatus",
+      "description": "BOM Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.03",
+      "systemValue": []
+  },
+  {
+      "id": 41000,
+      "name": "BomSystemStatus",
+      "description": "BOM System Status",
+      "isDeleted": false,
+      "dateCreated": "2024-02-14T10:01:53.037",
+      "systemValue": []
+  }
+]

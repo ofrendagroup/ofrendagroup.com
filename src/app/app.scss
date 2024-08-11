@@ -1,0 +1,95 @@
+.app {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  .app-container {
+    display: grid;
+    grid-template-areas:
+    "head"
+    "content"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    grid-column-gap: 0px;
+    grid-row-gap: 4px;
+    height: 100vh;
+  }
+
+  .app-header {
+    grid-area: head;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    cursor: default;
+
+    label {
+      margin: 0;
+      padding: 0;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: var(--color-black);
+    }
+  }
+
+  .app-content {
+    grid-area: content;
+  }
+
+  .app-footer {
+    grid-area: footer;
+    color: var(--color-black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    width: 100%;
+    text-align: left;
+    cursor: default;
+    
+    .app-footer-items
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+
+      .app-footer-item 
+      {
+        text-align: center;
+        min-width: 33.333%;
+      }
+    }
+
+    .app-icon-items
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      .app-icon-item
+      {
+        min-width: 40px;
+      }
+    }    
+
+    .app-policy-items
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      .app-policy-item
+      {
+        min-width: 33.3333%;
+      }
+    }
+  }
+}

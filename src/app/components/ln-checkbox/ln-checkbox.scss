@@ -1,0 +1,30 @@
+
+@import "../../../scss/index";
+
+.ln-checkbox {
+  padding: 0;
+  margin: 0;
+  width: auto;
+
+  &.disabled {
+    @include disabled();
+  }
+
+  &.visibility {
+    visibility: hidden;
+  }
+
+  ul.ln-checkbox-items {
+    padding: 0;
+    margin: 0;
+
+    li.ln-checkbox-item {
+      @include flex(0 0 auto);
+      padding: 0;
+
+      &.label {
+        @include flex(1 1 100%);
+      }
+    }
+  }
+}

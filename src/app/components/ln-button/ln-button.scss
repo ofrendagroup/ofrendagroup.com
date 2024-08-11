@@ -1,0 +1,110 @@
+@import "../../../scss/index";
+
+$circle-size: 26px;
+$circle-size-sm: 15px;
+
+.ln-button {
+    background-color: var(--color-primary-accent);
+    color: var(--color-white);
+    cursor: pointer;
+    display: inline-block;
+    min-width: 100px;
+    position: relative;
+    font-weight: 600;
+    border: 1px solid #96a69f;
+    text-shadow: 0px -1px #053f62;
+    padding: 10px 15px;
+    line-height: 1.78;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    transition: color 0.1s ease;
+    opacity: 0.9;
+
+    &.hidden {
+        display: none;
+    }
+
+    &.disabled {
+        @include disabled();
+    }
+
+    &.btn-primary,
+    &.btn-primary-sm {
+        &:active {
+            color: var(--color-white);
+            background-color: var(--color-primary);
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            background-color: var(--color-primary-accent);
+            color: var(--color-white);
+            opacity: 1;
+        }
+
+        &.disabled {
+            @include disabled();
+        }
+    }
+
+    &.btn-primary-sm {
+        height: 24px;
+        padding: 4px 20px;
+    }
+
+    &.btn-secondary,
+    &.btn-secondary-sm {
+        background-color: var(--color-white);
+        color: var(--color-primary-accent);
+
+        &:active {
+            //background-color: $grey-601;
+        }
+
+        &.disabled {
+            @include disabled();
+        }
+    }
+
+    &.btn-circle {
+        border-radius: 50%;
+        width: $circle-size;
+        height: $circle-size;
+        min-width: $circle-size;
+        min-height: $circle-size;
+        max-width: $circle-size;
+        max-height: $circle-size;
+        padding: 0;
+        margin: 1px;
+    }
+
+    &.btn-circle-sm {
+        border-radius: 50%;
+        width: $circle-size-sm;
+        height: $circle-size-sm;
+        min-width: $circle-size-sm;
+        min-height: $circle-size-sm;
+        max-width: $circle-size-sm;
+        max-height: $circle-size-sm;
+        padding: 0;
+    }
+
+    &.btn-circle,
+    &.btn-circle-sm {
+        &:hover {
+            opacity: 0.9;
+        }
+
+        &:active {
+            opacity: 0.9;
+        }
+
+        &.disabled {
+            @include disabled();
+        }
+    }
+}

@@ -1,0 +1,52 @@
+// 
+// Font Awesome Variables
+//
+$fa-css-prefix: fa !default;
+$fa-style: 900 !default;
+$fa-family: "Font Awesome 6 Brands";
+$fa-family-free: "Font Awesome 6 Free";
+$fa-display: block !default;
+$fa-path: "../assets/fonts/font-awesome";
+
+.fab,
+.#{$fa-css-prefix}-brands {
+  font-weight: 400;
+}
+
+.far,
+.#{$fa-css-prefix}-regular {
+  font-weight: 400;
+}
+
+.fas,
+.#{$fa-css-prefix}-solid {
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: $fa-family;
+  font-style: normal;
+  font-weight: 400;
+  font-display: $fa-display;
+  src: url("#{$fa-path}/fa-brands-400.woff2") format("woff2"),
+    url("#{$fa-path}/fa-brands-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: $fa-family-free;
+  font-style: normal;
+  font-weight: 400;
+  font-display: $fa-display;
+  src: url("#{$fa-path}/fa-regular-400.woff2") format("woff2"),
+    url("#{$fa-path}/fa-regular-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: $fa-display;
+  src: url("#{$fa-path}/fa-solid-900.woff2") format("woff2"),
+    url("#{$fa-path}/fa-solid-900.ttf") format("truetype");
+}
+

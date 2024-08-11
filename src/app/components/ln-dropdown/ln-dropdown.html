@@ -1,0 +1,30 @@
+<div class="ln-dropdown" tabindex="1" [ngClass]="{
+    'hidden': hidden,
+    'disabled': disabled
+  }">
+  <label class="ln-dropdown-label" [class.hidden]="label?.length === 0">{{label}}</label>
+  <div class="ln-dropdown-container">
+    <div class="ln-dropdown-inner-container" [ngClass]="{ 'fixation-dialogbox' : fixation}">
+      <button #portalContainer class="ln-dropdown-btn" [ngClass]="{
+    'dark': type === 'dark',
+    'dark-small': type === 'dark-small'
+  }" (keydown)="onKeyDown($event)" [attr.aria-label]="ariaLabel || null"
+        [attr.aria-labelledby]="ariaLabelledby || null" [attr.aria-multiselectable]="false"
+        (click)="onOpenMenu($event)">
+        {{ displayItem?.[textField]}}
+        <ln-icon class="ln-dropdown-icon" [name]="icon.name" (onClick)="icon.onClick($event)"></ln-icon>
+      </button>
+    </div>
+  </div>
+</div>
+<ng-template #portalView let-data>
+  <ul class="ln-dropdown-items" [ngClass]="{
+    'dark': type === 'dark',
+    'dark-small': type === 'dark-small'
+  }">
+    <li *ngFor="let item of items" class="ln-dropdown-item" [class.hidden]="item?.hidden"
+      [class.disabled]="item?.disabled" (click)="onCloseMenu(item)" [title]="item[textField]">
+      {{ item[textField] }}
+    </li>
+  </ul>
+</ng-template>

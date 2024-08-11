@@ -1,0 +1,13 @@
+<div class="ln-radio-button" [class.hidden]="hidden" [class.disabled]="disabled">
+  <label class="ln-radio-button-label" [class.hidden]="label?.length === 0">{{label}}</label>
+  <ul class="ln-radio-button-items">
+    <li *ngFor="let item of items;let i=index" class="ln-radio-button-item" [ngClass]="{
+        'active': value === item.id,
+        'disabled': item.disabled,
+        'readonly': readonly,
+        'chip': chip
+      }" (click)="handleClick($event, item)">
+      <data [value]="item[valueField]">{{ item[textField] }}</data>
+    </li>
+  </ul>
+</div>

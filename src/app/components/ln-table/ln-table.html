@@ -1,0 +1,36 @@
+<div class="ln-table-component" [class.hidden]="hidden" [class.disabled]="disabled" [style]="style">
+  <div class="ln-table-container">
+    <table [attr.id]="table?.uid" class="ln-table">
+      <thead [class.hidden]="hideHeader">
+        <tr class="ln-table-header">
+          <th *ngFor="let column of table?.columns;let i=index" (click)="handleHeader(column)" [style]="column.style"
+            [class.disabled]="disabled" [class.sortable]="!column.sort.disabled" [class.active]="column.sort.active">
+            <span class="ln-table-header-label">
+              {{ column.label }}
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody class="ln-table-body no-data" *ngIf="!table?.hasData()">
+        <tr>
+          <td [attr.colspan]="table?.columns?.length">
+            {{ "No data available." }}
+          </td>
+        </tr>
+      </tbody>
+      <tbody class="ln-table-body no-data" *ngIf="table?.hasData()">
+      <tbody class="ln-table-body has-data">
+        <tr *ngFor="let row of table?.data;let i=index" id="{{ row.uid }}" class="ln-table-row border-bottom" [ngClass]="{
+            'hidden': row.hidden, 
+            'has-content': row.hasContent(), 
+            'border-bottom': border 
+          }" (click)="handleRowSelected(row)" (dblclick)="handleDblClick(row)">
+          <td *ngFor="let column of table?.columns;let i=index" class="ln-table-cell" [ngClass]="{ 
+              'hidden': column.hidden, 
+              'has-content': row.hasContent()
+            }" [style]="column.style" [innerHtml]="row.data[column.field.name]"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

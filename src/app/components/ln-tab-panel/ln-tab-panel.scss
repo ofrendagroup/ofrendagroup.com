@@ -1,0 +1,78 @@
+@import "../../../scss/index";
+
+.host {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.ln-tab-panel {
+    .ln-tab-panel-container {
+        ul.ln-tab-panel-tabs {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            border-top-left-radius: var(--radius);
+            border-top-right-radius: var(--radius);
+            color: var(--color-text);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            gap: 4px;
+
+            &::before {
+                content: "";
+                display: table;
+            }
+
+            &::after {
+                clear: both;
+            }
+
+            li.ln-tab-panel-tab {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: 50px;
+                min-width: 100px;
+                width: auto;
+                padding: 0 8px 0 8px;
+                cursor: default;
+                border-radius: 4px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                font-weight: normal;
+                color: var(--color-text);
+
+                &.active {                    
+                    border-bottom: 0;
+
+                    &:hover {
+                        cursor: default;
+                        text-decoration: none;
+                        font-weight: 700px;
+
+                        &.active {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                &.disabled {
+                    @include disabled();
+                }
+            }
+        }
+
+        .ln-tab-panel-content {
+            border: 1px solid var(--color-gray-400);
+            padding: 20px;
+        }
+    }
+}

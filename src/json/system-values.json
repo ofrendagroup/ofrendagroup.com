@@ -1,0 +1,3613 @@
+[
+    {
+        "id": 1002,
+        "typeId": 1500,
+        "type": "AddressType",
+        "primary": "Home",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.64"
+    },
+    {
+        "id": 1003,
+        "typeId": 1500,
+        "type": "AddressType",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.64"
+    },
+    {
+        "id": 1000,
+        "typeId": 1500,
+        "type": "AddressType",
+        "primary": "Primary",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.64"
+    },
+    {
+        "id": 1001,
+        "typeId": 1500,
+        "type": "AddressType",
+        "primary": "Work",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.64"
+    },
+    {
+        "id": 1004,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Alabama",
+        "secondary": "AL",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.643"
+    },
+    {
+        "id": 1005,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Alaska",
+        "secondary": "AK",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.643"
+    },
+    {
+        "id": 1006,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "American Samoa",
+        "secondary": "AS",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.643"
+    },
+    {
+        "id": 1007,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Arizona",
+        "secondary": "AZ",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.643"
+    },
+    {
+        "id": 1008,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Arkansas",
+        "secondary": "AR",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.643"
+    },
+    {
+        "id": 1009,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "California",
+        "secondary": "CA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.643"
+    },
+    {
+        "id": 1010,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Colorado",
+        "secondary": "CO",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.647"
+    },
+    {
+        "id": 1011,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Connecticut",
+        "secondary": "CT",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.647"
+    },
+    {
+        "id": 1012,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Delaware",
+        "secondary": "DE",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.647"
+    },
+    {
+        "id": 1013,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "District Of Columbia",
+        "secondary": "DC",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.647"
+    },
+    {
+        "id": 1014,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Federated States Of Micronesia",
+        "secondary": "FM",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.65"
+    },
+    {
+        "id": 1015,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Florida",
+        "secondary": "FL",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.65"
+    },
+    {
+        "id": 1016,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Georgia",
+        "secondary": "GA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.65"
+    },
+    {
+        "id": 1017,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Guam",
+        "secondary": "GU",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.65"
+    },
+    {
+        "id": 1018,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Hawaii",
+        "secondary": "HI",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.65"
+    },
+    {
+        "id": 1019,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Idaho",
+        "secondary": "ID",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.653"
+    },
+    {
+        "id": 1020,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Illinois",
+        "secondary": "IL",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.653"
+    },
+    {
+        "id": 1021,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Indiana",
+        "secondary": "IN",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.653"
+    },
+    {
+        "id": 1022,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Iowa",
+        "secondary": "IA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.653"
+    },
+    {
+        "id": 1023,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Kansas",
+        "secondary": "KS",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.657"
+    },
+    {
+        "id": 1024,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Kentucky",
+        "secondary": "KY",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.657"
+    },
+    {
+        "id": 1025,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Louisiana",
+        "secondary": "LA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.657"
+    },
+    {
+        "id": 1026,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Maine",
+        "secondary": "ME",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.657"
+    },
+    {
+        "id": 1027,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Marshall Islands",
+        "secondary": "MH",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.66"
+    },
+    {
+        "id": 1028,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Maryland",
+        "secondary": "MD",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.66"
+    },
+    {
+        "id": 1029,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Massachusetts",
+        "secondary": "MA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.66"
+    },
+    {
+        "id": 1030,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Michigan",
+        "secondary": "MI",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.66"
+    },
+    {
+        "id": 1031,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Minnesota",
+        "secondary": "MN",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.66"
+    },
+    {
+        "id": 1032,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Mississippi",
+        "secondary": "MS",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.66"
+    },
+    {
+        "id": 1033,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Missouri",
+        "secondary": "MO",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.663"
+    },
+    {
+        "id": 1034,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Montana",
+        "secondary": "MT",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.663"
+    },
+    {
+        "id": 1035,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Nebraska",
+        "secondary": "NE",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.663"
+    },
+    {
+        "id": 1036,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Nevada",
+        "secondary": "NV",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.663"
+    },
+    {
+        "id": 1037,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "New Hampshire",
+        "secondary": "NH",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.667"
+    },
+    {
+        "id": 1038,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "New Jersey",
+        "secondary": "NJ",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.667"
+    },
+    {
+        "id": 1039,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "New Mexico",
+        "secondary": "NM",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.667"
+    },
+    {
+        "id": 1040,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "New York",
+        "secondary": "NY",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.667"
+    },
+    {
+        "id": 1063,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "None",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.68"
+    },
+    {
+        "id": 1041,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "North Carolina",
+        "secondary": "NC",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.667"
+    },
+    {
+        "id": 1042,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "North Dakota",
+        "secondary": "ND",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.67"
+    },
+    {
+        "id": 1043,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Northern Mariana Islands",
+        "secondary": "MP",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.67"
+    },
+    {
+        "id": 1044,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Ohio",
+        "secondary": "OH",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.67"
+    },
+    {
+        "id": 1045,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Oklahoma",
+        "secondary": "OK",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.67"
+    },
+    {
+        "id": 1046,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Oregon",
+        "secondary": "OR",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.67"
+    },
+    {
+        "id": 1047,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Palau",
+        "secondary": "PW",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.673"
+    },
+    {
+        "id": 1048,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Pennsylvania",
+        "secondary": "PA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.673"
+    },
+    {
+        "id": 1049,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Puerto Rico",
+        "secondary": "PR",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.673"
+    },
+    {
+        "id": 1050,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Rhode Island",
+        "secondary": "RI",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.673"
+    },
+    {
+        "id": 1051,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "South Carolina",
+        "secondary": "SC",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.677"
+    },
+    {
+        "id": 1052,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "South Dakota",
+        "secondary": "SD",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.677"
+    },
+    {
+        "id": 1053,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Tennessee",
+        "secondary": "TN",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.677"
+    },
+    {
+        "id": 1054,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Texas",
+        "secondary": "TX",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.677"
+    },
+    {
+        "id": 1055,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Utah",
+        "secondary": "UT",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.677"
+    },
+    {
+        "id": 1056,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Vermont",
+        "secondary": "VT",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.677"
+    },
+    {
+        "id": 1057,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Virgin Islands",
+        "secondary": "VI",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.68"
+    },
+    {
+        "id": 1058,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Virginia",
+        "secondary": "VA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.68"
+    },
+    {
+        "id": 1059,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Washington",
+        "secondary": "WA",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.68"
+    },
+    {
+        "id": 1060,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "West Virginia",
+        "secondary": "WV",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.68"
+    },
+    {
+        "id": 1061,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Wisconsin",
+        "secondary": "WI",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.68"
+    },
+    {
+        "id": 1062,
+        "typeId": 2000,
+        "type": "UnitedStates",
+        "primary": "Wyoming",
+        "secondary": "WY",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.68"
+    },
+    {
+        "id": 1064,
+        "typeId": 2500,
+        "type": "AuditLog",
+        "primary": "Playbook",
+        "secondary": "Playbook",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.683"
+    },
+    {
+        "id": 1065,
+        "typeId": 2500,
+        "type": "AuditLog",
+        "primary": "Playbook SCMS",
+        "secondary": "Playbook SCMS",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.683"
+    },
+    {
+        "id": 1067,
+        "typeId": 3000,
+        "type": "AuditType",
+        "primary": "Create",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.683"
+    },
+    {
+        "id": 1069,
+        "typeId": 3000,
+        "type": "AuditType",
+        "primary": "Delete",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.687"
+    },
+    {
+        "id": 1066,
+        "typeId": 3000,
+        "type": "AuditType",
+        "primary": "None",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.683"
+    },
+    {
+        "id": 1068,
+        "typeId": 3000,
+        "type": "AuditType",
+        "primary": "Update",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.683"
+    },
+    {
+        "id": 1070,
+        "typeId": 3500,
+        "type": "CommentType",
+        "primary": "General",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.687"
+    },
+    {
+        "id": 1071,
+        "typeId": 4000,
+        "type": "ContactType",
+        "primary": "Primary",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.687"
+    },
+    {
+        "id": 1072,
+        "typeId": 4500,
+        "type": "DepartmentStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.69"
+    },
+    {
+        "id": 1073,
+        "typeId": 4500,
+        "type": "DepartmentStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.69"
+    },
+    {
+        "id": 1074,
+        "typeId": 4500,
+        "type": "DepartmentStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.69"
+    },
+    {
+        "id": 1077,
+        "typeId": 5000,
+        "type": "EmailTemplateType",
+        "primary": "ForgetPassword",
+        "secondary": "Forget Password",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.693"
+    },
+    {
+        "id": 1076,
+        "typeId": 5000,
+        "type": "EmailTemplateType",
+        "primary": "ResetPassword",
+        "secondary": "Reset Password",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.69"
+    },
+    {
+        "id": 1075,
+        "typeId": 5000,
+        "type": "EmailTemplateType",
+        "primary": "Welcome",
+        "secondary": "Welcome",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.69"
+    },
+    {
+        "id": 1080,
+        "typeId": 5500,
+        "type": "EmailType",
+        "primary": "Home",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.697"
+    },
+    {
+        "id": 1081,
+        "typeId": 5500,
+        "type": "EmailType",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.697"
+    },
+    {
+        "id": 1078,
+        "typeId": 5500,
+        "type": "EmailType",
+        "primary": "Primary",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.693"
+    },
+    {
+        "id": 1079,
+        "typeId": 5500,
+        "type": "EmailType",
+        "primary": "Work",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.693"
+    },
+    {
+        "id": 1084,
+        "typeId": 6000,
+        "type": "PhoneType",
+        "primary": "Home",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.7"
+    },
+    {
+        "id": 1085,
+        "typeId": 6000,
+        "type": "PhoneType",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.7"
+    },
+    {
+        "id": 1082,
+        "typeId": 6000,
+        "type": "PhoneType",
+        "primary": "Primary",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.697"
+    },
+    {
+        "id": 1083,
+        "typeId": 6000,
+        "type": "PhoneType",
+        "primary": "Work",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.697"
+    },
+    {
+        "id": 1086,
+        "typeId": 6500,
+        "type": "EntityType",
+        "primary": "Department",
+        "secondary": "Department",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.7"
+    },
+    {
+        "id": 1087,
+        "typeId": 6500,
+        "type": "EntityType",
+        "primary": "Hospital",
+        "secondary": "Hospital",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.7"
+    },
+    {
+        "id": 1088,
+        "typeId": 6500,
+        "type": "EntityType",
+        "primary": "SupplyManufacturer",
+        "secondary": "Supply Manufacturer",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.7"
+    },
+    {
+        "id": 1089,
+        "typeId": 6500,
+        "type": "EntityType",
+        "primary": "User",
+        "secondary": "User",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.7"
+    },
+    {
+        "id": 1090,
+        "typeId": 7000,
+        "type": "HospitalType",
+        "primary": "General",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.703"
+    },
+    {
+        "id": 1091,
+        "typeId": 7500,
+        "type": "HospitalStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.703"
+    },
+    {
+        "id": 1092,
+        "typeId": 7500,
+        "type": "HospitalStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.707"
+    },
+    {
+        "id": 1093,
+        "typeId": 7500,
+        "type": "HospitalStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.707"
+    },
+    {
+        "id": 1094,
+        "typeId": 8000,
+        "type": "HospitalStaff",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.707"
+    },
+    {
+        "id": 1095,
+        "typeId": 8000,
+        "type": "HospitalStaff",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.707"
+    },
+    {
+        "id": 1096,
+        "typeId": 8000,
+        "type": "HospitalStaff",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.71"
+    },
+    {
+        "id": 1098,
+        "typeId": 8500,
+        "type": "PackagedState",
+        "primary": "Septic",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.71"
+    },
+    {
+        "id": 1097,
+        "typeId": 8500,
+        "type": "PackagedState",
+        "primary": "Sterile",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.71"
+    },
+    {
+        "id": 1099,
+        "typeId": 9000,
+        "type": "MedicationType",
+        "primary": "General",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.71"
+    },
+    {
+        "id": 1100,
+        "typeId": 9000,
+        "type": "MedicationType",
+        "primary": "Specialized",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.71"
+    },
+    {
+        "id": 1101,
+        "typeId": 9500,
+        "type": "OperatingRoomStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.713"
+    },
+    {
+        "id": 1102,
+        "typeId": 9500,
+        "type": "OperatingRoomStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.713"
+    },
+    {
+        "id": 1103,
+        "typeId": 9500,
+        "type": "OperatingRoomStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.713"
+    },
+    {
+        "id": 1104,
+        "typeId": 10000,
+        "type": "PatientStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.713"
+    },
+    {
+        "id": 1105,
+        "typeId": 10000,
+        "type": "PatientStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.717"
+    },
+    {
+        "id": 1106,
+        "typeId": 10000,
+        "type": "PatientStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.717"
+    },
+    {
+        "id": 1107,
+        "typeId": 10500,
+        "type": "PatientType",
+        "primary": "General",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.717"
+    },
+    {
+        "id": 1108,
+        "typeId": 11000,
+        "type": "PreOpImageType",
+        "primary": "General",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.717"
+    },
+    {
+        "id": 1109,
+        "typeId": 11500,
+        "type": "PreOpImageStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.72"
+    },
+    {
+        "id": 1110,
+        "typeId": 11500,
+        "type": "PreOpImageStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.72"
+    },
+    {
+        "id": 1111,
+        "typeId": 11500,
+        "type": "PreOpImageStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.72"
+    },
+    {
+        "id": 1112,
+        "typeId": 12000,
+        "type": "PreOpPlanType",
+        "primary": "General",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.72"
+    },
+    {
+        "id": 1115,
+        "typeId": 12500,
+        "type": "PreOpPlanStatus",
+        "primary": "Completed",
+        "secondary": "Completed",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.723"
+    },
+    {
+        "id": 1114,
+        "typeId": 12500,
+        "type": "PreOpPlanStatus",
+        "primary": "Draft",
+        "secondary": "Draft",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.723"
+    },
+    {
+        "id": 1113,
+        "typeId": 12500,
+        "type": "PreOpPlanStatus",
+        "primary": "In-Progress",
+        "secondary": "In-Progress",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.723"
+    },
+    {
+        "id": 1118,
+        "typeId": 13000,
+        "type": "PreOpCaseType",
+        "primary": "Deformity Correction",
+        "secondary": "Deformity Correction",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.727"
+    },
+    {
+        "id": 1121,
+        "typeId": 13000,
+        "type": "PreOpCaseType",
+        "primary": "None",
+        "secondary": "None",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.73"
+    },
+    {
+        "id": 1117,
+        "typeId": 13000,
+        "type": "PreOpCaseType",
+        "primary": "Scoli Non-Fusion",
+        "secondary": "Scoli Non-Fusion",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.727"
+    },
+    {
+        "id": 1116,
+        "typeId": 13000,
+        "type": "PreOpCaseType",
+        "primary": "Scoli-Fusion",
+        "secondary": "Scoli Fusion",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.727"
+    },
+    {
+        "id": 1119,
+        "typeId": 13000,
+        "type": "PreOpCaseType",
+        "primary": "Trauma",
+        "secondary": "Trauma",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.727"
+    },
+    {
+        "id": 1120,
+        "typeId": 13000,
+        "type": "PreOpCaseType",
+        "primary": "Unspecified",
+        "secondary": "Unspecified",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.73"
+    },
+    {
+        "id": 1126,
+        "typeId": 13500,
+        "type": "PreOpReminderType",
+        "primary": "FourWeeks",
+        "secondary": "Four Weeks",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.733"
+    },
+    {
+        "id": 1123,
+        "typeId": 13500,
+        "type": "PreOpReminderType",
+        "primary": "OneWeek",
+        "secondary": "One Week",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.73"
+    },
+    {
+        "id": 1127,
+        "typeId": 13500,
+        "type": "PreOpReminderType",
+        "primary": "SixWeeks",
+        "secondary": "Six Weeks",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.733"
+    },
+    {
+        "id": 1128,
+        "typeId": 13500,
+        "type": "PreOpReminderType",
+        "primary": "ThreeMonths",
+        "secondary": "Three Months",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.733"
+    },
+    {
+        "id": 1125,
+        "typeId": 13500,
+        "type": "PreOpReminderType",
+        "primary": "ThreeWeeks",
+        "secondary": "Three Weeks",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.733"
+    },
+    {
+        "id": 1122,
+        "typeId": 13500,
+        "type": "PreOpReminderType",
+        "primary": "Tomorrow",
+        "secondary": "Tomorrow",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.73"
+    },
+    {
+        "id": 1124,
+        "typeId": 13500,
+        "type": "PreOpReminderType",
+        "primary": "TwoWeeks",
+        "secondary": "Two Weeks",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.73"
+    },
+    {
+        "id": 1129,
+        "typeId": 14000,
+        "type": "PreOpReminderStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.737"
+    },
+    {
+        "id": 1130,
+        "typeId": 14000,
+        "type": "PreOpReminderStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.737"
+    },
+    {
+        "id": 1131,
+        "typeId": 14000,
+        "type": "PreOpReminderStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.737"
+    },
+    {
+        "id": 1132,
+        "typeId": 14500,
+        "type": "PreOpSeriesStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.737"
+    },
+    {
+        "id": 1133,
+        "typeId": 14500,
+        "type": "PreOpSeriesStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.74"
+    },
+    {
+        "id": 1134,
+        "typeId": 14500,
+        "type": "PreOpSeriesStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.74"
+    },
+    {
+        "id": 1135,
+        "typeId": 15000,
+        "type": "PreOpStudyStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.74"
+    },
+    {
+        "id": 1136,
+        "typeId": 15000,
+        "type": "PreOpStudyStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.74"
+    },
+    {
+        "id": 1137,
+        "typeId": 15000,
+        "type": "PreOpStudyStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.74"
+    },
+    {
+        "id": 1138,
+        "typeId": 15500,
+        "type": "ProcedureStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.743"
+    },
+    {
+        "id": 1139,
+        "typeId": 15500,
+        "type": "ProcedureStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.743"
+    },
+    {
+        "id": 1140,
+        "typeId": 15500,
+        "type": "ProcedureStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.743"
+    },
+    {
+        "id": 1141,
+        "typeId": 16000,
+        "type": "ProcedureType",
+        "primary": "General",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.747"
+    },
+    {
+        "id": 1142,
+        "typeId": 16000,
+        "type": "ProcedureType",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.747"
+    },
+    {
+        "id": 1143,
+        "typeId": 16500,
+        "type": "ProcedureCodeStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.747"
+    },
+    {
+        "id": 1144,
+        "typeId": 16500,
+        "type": "ProcedureCodeStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.747"
+    },
+    {
+        "id": 1145,
+        "typeId": 16500,
+        "type": "ProcedureCodeStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.75"
+    },
+    {
+        "id": 1146,
+        "typeId": 17000,
+        "type": "ProcedureInstrumentStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.75"
+    },
+    {
+        "id": 1147,
+        "typeId": 17000,
+        "type": "ProcedureInstrumentStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.75"
+    },
+    {
+        "id": 1148,
+        "typeId": 17000,
+        "type": "ProcedureInstrumentStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.75"
+    },
+    {
+        "id": 1149,
+        "typeId": 17500,
+        "type": "ProcedureMedicationStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.75"
+    },
+    {
+        "id": 1150,
+        "typeId": 17500,
+        "type": "ProcedureMedicationStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.75"
+    },
+    {
+        "id": 1151,
+        "typeId": 17500,
+        "type": "ProcedureMedicationStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.753"
+    },
+    {
+        "id": 1152,
+        "typeId": 18000,
+        "type": "ProcedureSupplyStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.753"
+    },
+    {
+        "id": 1153,
+        "typeId": 18000,
+        "type": "ProcedureSupplyStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.753"
+    },
+    {
+        "id": 1154,
+        "typeId": 18000,
+        "type": "ProcedureSupplyStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.753"
+    },
+    {
+        "id": 1155,
+        "typeId": 18500,
+        "type": "ProcedureTrayStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.757"
+    },
+    {
+        "id": 1156,
+        "typeId": 18500,
+        "type": "ProcedureTrayStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.757"
+    },
+    {
+        "id": 1157,
+        "typeId": 18500,
+        "type": "ProcedureTrayStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.757"
+    },
+    {
+        "id": 1160,
+        "typeId": 19000,
+        "type": "QuestionnaireType",
+        "primary": "Post-Op",
+        "secondary": "Post-Op",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.76"
+    },
+    {
+        "id": 1158,
+        "typeId": 19000,
+        "type": "QuestionnaireType",
+        "primary": "Pre-Anesthesia",
+        "secondary": "Pre-Anesthesia",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.757"
+    },
+    {
+        "id": 1159,
+        "typeId": 19000,
+        "type": "QuestionnaireType",
+        "primary": "Surgical Timeout",
+        "secondary": "Surgical Timeout",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.76"
+    },
+    {
+        "id": 1163,
+        "typeId": 19500,
+        "type": "DataType",
+        "primary": "Boolean",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.763"
+    },
+    {
+        "id": 1161,
+        "typeId": 19500,
+        "type": "DataType",
+        "primary": "Number",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.76"
+    },
+    {
+        "id": 1162,
+        "typeId": 19500,
+        "type": "DataType",
+        "primary": "String",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.763"
+    },
+    {
+        "id": 1164,
+        "typeId": 20000,
+        "type": "QuestionnaireAnswerStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.767"
+    },
+    {
+        "id": 1165,
+        "typeId": 20000,
+        "type": "QuestionnaireAnswerStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.767"
+    },
+    {
+        "id": 1166,
+        "typeId": 20000,
+        "type": "QuestionnaireAnswerStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.767"
+    },
+    {
+        "id": 1168,
+        "typeId": 20500,
+        "type": "RequestType",
+        "primary": "Incident",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.77"
+    },
+    {
+        "id": 1167,
+        "typeId": 20500,
+        "type": "RequestType",
+        "primary": "Request",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.77"
+    },
+    {
+        "id": 1171,
+        "typeId": 21000,
+        "type": "RequestStatus",
+        "primary": "Approved",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.773"
+    },
+    {
+        "id": 1170,
+        "typeId": 21000,
+        "type": "RequestStatus",
+        "primary": "Closed",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.773"
+    },
+    {
+        "id": 1172,
+        "typeId": 21000,
+        "type": "RequestStatus",
+        "primary": "Declined",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.773"
+    },
+    {
+        "id": 1169,
+        "typeId": 21000,
+        "type": "RequestStatus",
+        "primary": "Open",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.77"
+    },
+    {
+        "id": 1173,
+        "typeId": 21500,
+        "type": "SupplyStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.773"
+    },
+    {
+        "id": 1174,
+        "typeId": 21500,
+        "type": "SupplyStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.773"
+    },
+    {
+        "id": 1175,
+        "typeId": 21500,
+        "type": "SupplyStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.773"
+    },
+    {
+        "id": 1176,
+        "typeId": 22000,
+        "type": "SupplyManufacturerStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.777"
+    },
+    {
+        "id": 1177,
+        "typeId": 22000,
+        "type": "SupplyManufacturerStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.777"
+    },
+    {
+        "id": 1178,
+        "typeId": 22000,
+        "type": "SupplyManufacturerStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.777"
+    },
+    {
+        "id": 1179,
+        "typeId": 22500,
+        "type": "StudyStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.777"
+    },
+    {
+        "id": 1180,
+        "typeId": 22500,
+        "type": "StudyStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.78"
+    },
+    {
+        "id": 1181,
+        "typeId": 22500,
+        "type": "StudyStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.78"
+    },
+    {
+        "id": 1182,
+        "typeId": 23000,
+        "type": "SurgicalPreOpPlanStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.78"
+    },
+    {
+        "id": 1183,
+        "typeId": 23000,
+        "type": "SurgicalPreOpPlanStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.78"
+    },
+    {
+        "id": 1184,
+        "typeId": 23000,
+        "type": "SurgicalPreOpPlanStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.78"
+    },
+    {
+        "id": 1185,
+        "typeId": 23500,
+        "type": "SurgicalStaffStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.78"
+    },
+    {
+        "id": 1186,
+        "typeId": 23500,
+        "type": "SurgicalStaffStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.783"
+    },
+    {
+        "id": 1187,
+        "typeId": 23500,
+        "type": "SurgicalStaffStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.783"
+    },
+    {
+        "id": 1190,
+        "typeId": 24000,
+        "type": "SurgeryStatus",
+        "primary": "Cancelled",
+        "secondary": "Cancelled",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.783"
+    },
+    {
+        "id": 1192,
+        "typeId": 24000,
+        "type": "SurgeryStatus",
+        "primary": "Closed",
+        "secondary": "Closed",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.787"
+    },
+    {
+        "id": 1191,
+        "typeId": 24000,
+        "type": "SurgeryStatus",
+        "primary": "Completed",
+        "secondary": "Completed",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.787"
+    },
+    {
+        "id": 1189,
+        "typeId": 24000,
+        "type": "SurgeryStatus",
+        "primary": "InProgress",
+        "secondary": "In-Progress",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.783"
+    },
+    {
+        "id": 1188,
+        "typeId": 24000,
+        "type": "SurgeryStatus",
+        "primary": "Open",
+        "secondary": "Open",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.783"
+    },
+    {
+        "id": 1195,
+        "typeId": 24500,
+        "type": "SurgicalProcedureStatus",
+        "primary": "Completed",
+        "secondary": "Completed",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.79"
+    },
+    {
+        "id": 1194,
+        "typeId": 24500,
+        "type": "SurgicalProcedureStatus",
+        "primary": "Draft",
+        "secondary": "Draft",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.787"
+    },
+    {
+        "id": 1193,
+        "typeId": 24500,
+        "type": "SurgicalProcedureStatus",
+        "primary": "In-Progress",
+        "secondary": "In-Progress",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.787"
+    },
+    {
+        "id": 1196,
+        "typeId": 25000,
+        "type": "TrayStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.79"
+    },
+    {
+        "id": 1197,
+        "typeId": 25000,
+        "type": "TrayStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.79"
+    },
+    {
+        "id": 1198,
+        "typeId": 25000,
+        "type": "TrayStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.79"
+    },
+    {
+        "id": 1203,
+        "typeId": 25500,
+        "type": "UserType",
+        "primary": "Anesthesiologist",
+        "secondary": "Anesthesiologist",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.793"
+    },
+    {
+        "id": 1200,
+        "typeId": 25500,
+        "type": "UserType",
+        "primary": "Hospital Administrator",
+        "secondary": "Hospital Administrator",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.793"
+    },
+    {
+        "id": 1204,
+        "typeId": 25500,
+        "type": "UserType",
+        "primary": "Sales Representative",
+        "secondary": "Sales Representative",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.793"
+    },
+    {
+        "id": 1202,
+        "typeId": 25500,
+        "type": "UserType",
+        "primary": "Scrub-Tech",
+        "secondary": "Scrub-Tech",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.793"
+    },
+    {
+        "id": 1201,
+        "typeId": 25500,
+        "type": "UserType",
+        "primary": "Surgical Assistant",
+        "secondary": "Surgical Assistant",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.793"
+    },
+    {
+        "id": 1199,
+        "typeId": 25500,
+        "type": "UserType",
+        "primary": "System Administrator",
+        "secondary": "System Administrator",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.793"
+    },
+    {
+        "id": 1212,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "Advisor",
+        "secondary": "Acting Advistor",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.8"
+    },
+    {
+        "id": 1209,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "Anesthesiologist",
+        "secondary": "Anesthesiologist",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.797"
+    },
+    {
+        "id": 1211,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "CPD",
+        "secondary": "Central Processing Department",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.8"
+    },
+    {
+        "id": 1206,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "Hospital Administrator",
+        "secondary": "Hospital Administrator",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.797"
+    },
+    {
+        "id": 1210,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "Sales Representative",
+        "secondary": "Sales Representative",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.797"
+    },
+    {
+        "id": 1208,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "Scrub-Tech",
+        "secondary": "Scrub-Tech",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.797"
+    },
+    {
+        "id": 1207,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "Surgical Assistant",
+        "secondary": "Surgical Assistant",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.797"
+    },
+    {
+        "id": 1205,
+        "typeId": 26000,
+        "type": "UserRole",
+        "primary": "System Administrator",
+        "secondary": "System Administrator",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.797"
+    },
+    {
+        "id": 1213,
+        "typeId": 26500,
+        "type": "UserStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.8"
+    },
+    {
+        "id": 1214,
+        "typeId": 26500,
+        "type": "UserStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.8"
+    },
+    {
+        "id": 1215,
+        "typeId": 26500,
+        "type": "UserStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.8"
+    },
+    {
+        "id": 1216,
+        "typeId": 27000,
+        "type": "UserAuditType",
+        "primary": "System",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.8"
+    },
+    {
+        "id": 1217,
+        "typeId": 27500,
+        "type": "UserProfileType",
+        "primary": "Default",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.803"
+    },
+    {
+        "id": 1218,
+        "typeId": 27500,
+        "type": "UserProfileType",
+        "primary": "System",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.803"
+    },
+    {
+        "id": 1221,
+        "typeId": 28000,
+        "type": "ZoomStatus",
+        "primary": "Completed",
+        "secondary": "Completed",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.807"
+    },
+    {
+        "id": 1220,
+        "typeId": 28000,
+        "type": "ZoomStatus",
+        "primary": "In-Progress",
+        "secondary": "In-Progress",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.807"
+    },
+    {
+        "id": 1219,
+        "typeId": 28000,
+        "type": "ZoomStatus",
+        "primary": "Scheduled",
+        "secondary": "Scheduled",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.803"
+    },
+    {
+        "id": 1224,
+        "typeId": 28500,
+        "type": "Resource",
+        "primary": "DMS",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.807"
+    },
+    {
+        "id": 1223,
+        "typeId": 28500,
+        "type": "Resource",
+        "primary": "PACS",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.807"
+    },
+    {
+        "id": 1222,
+        "typeId": 28500,
+        "type": "Resource",
+        "primary": "REDOX",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.807"
+    },
+    {
+        "id": 1226,
+        "typeId": 29000,
+        "type": "RedoxRole",
+        "primary": "Anesthesiologist",
+        "secondary": "Anesthesiologist",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.81"
+    },
+    {
+        "id": 1227,
+        "typeId": 29000,
+        "type": "RedoxRole",
+        "primary": "Nurse",
+        "secondary": "Nurse",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.81"
+    },
+    {
+        "id": 1225,
+        "typeId": 29000,
+        "type": "RedoxRole",
+        "primary": "Primary Surgeon",
+        "secondary": "Primary Surgeon",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.81"
+    },
+    {
+        "id": 1228,
+        "typeId": 29500,
+        "type": "FileSegmentType",
+        "primary": "ProfilePhoto",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.81"
+    },
+    {
+        "id": 1233,
+        "typeId": 30000,
+        "type": "ProcedureStage",
+        "primary": "Debrief",
+        "secondary": "Debrief",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.813"
+    },
+    {
+        "id": 1231,
+        "typeId": 30000,
+        "type": "ProcedureStage",
+        "primary": "Intraoperative Guide",
+        "secondary": "Intraoperative Guide",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.813"
+    },
+    {
+        "id": 1229,
+        "typeId": 30000,
+        "type": "ProcedureStage",
+        "primary": "Non-Sterilee Setup",
+        "secondary": "Non-Sterilee Setup",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.81"
+    },
+    {
+        "id": 1232,
+        "typeId": 30000,
+        "type": "ProcedureStage",
+        "primary": "Postoperative Guide",
+        "secondary": "Postoperative Guide",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.813"
+    },
+    {
+        "id": 1230,
+        "typeId": 30000,
+        "type": "ProcedureStage",
+        "primary": "Sterile Setup",
+        "secondary": "Sterile Setup",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.81"
+    },
+    {
+        "id": 1234,
+        "typeId": 30500,
+        "type": "LocationScope",
+        "primary": "Current",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.813"
+    },
+    {
+        "id": 1235,
+        "typeId": 30500,
+        "type": "LocationScope",
+        "primary": "Global",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.813"
+    },
+    {
+        "id": 1236,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Activate Gif",
+        "secondary": "1",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.817"
+    },
+    {
+        "id": 1252,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Add Incident",
+        "secondary": "17",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.823"
+    },
+    {
+        "id": 1250,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Add Request",
+        "secondary": "15",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.823"
+    },
+    {
+        "id": 1254,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Begin Checklist",
+        "secondary": "19",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.823"
+    },
+    {
+        "id": 1255,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Begin Zoom Call",
+        "secondary": "20",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.827"
+    },
+    {
+        "id": 1249,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Capture Image",
+        "secondary": "14",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.823"
+    },
+    {
+        "id": 1263,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Close Media",
+        "secondary": "28",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.83"
+    },
+    {
+        "id": 1246,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Close Video Or Image",
+        "secondary": "11",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1266,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "CloseCheckList",
+        "secondary": "31",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.83"
+    },
+    {
+        "id": 1257,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Complete Checklist",
+        "secondary": "22",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.827"
+    },
+    {
+        "id": 1242,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Complete Step",
+        "secondary": "7",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1264,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Forward",
+        "secondary": "29",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.83"
+    },
+    {
+        "id": 1238,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Hospital Selection",
+        "secondary": "3",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.817"
+    },
+    {
+        "id": 1261,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Next",
+        "secondary": "26",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.83"
+    },
+    {
+        "id": 1259,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Open Camera",
+        "secondary": "24",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.827"
+    },
+    {
+        "id": 1247,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Open Image",
+        "secondary": "12",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1260,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Open Media",
+        "secondary": "25",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.83"
+    },
+    {
+        "id": 1243,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Open Video",
+        "secondary": "8",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1262,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Previous",
+        "secondary": "27",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.83"
+    },
+    {
+        "id": 1265,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Rewind",
+        "secondary": "30",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.83"
+    },
+    {
+        "id": 1239,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Role Selection",
+        "secondary": "4",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.817"
+    },
+    {
+        "id": 1256,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Select Checklist",
+        "secondary": "21",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.827"
+    },
+    {
+        "id": 1248,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Select Image",
+        "secondary": "13",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1241,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Select Stage",
+        "secondary": "6",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1258,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Select View",
+        "secondary": "23",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.827"
+    },
+    {
+        "id": 1244,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Start Video",
+        "secondary": "9",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1237,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Stop Gif",
+        "secondary": "2",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.817"
+    },
+    {
+        "id": 1245,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Stop Video",
+        "secondary": "10",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.82"
+    },
+    {
+        "id": 1253,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Submit Incident",
+        "secondary": "18",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.823"
+    },
+    {
+        "id": 1251,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Submit Request",
+        "secondary": "16",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.823"
+    },
+    {
+        "id": 1240,
+        "typeId": 31000,
+        "type": "VoiceCommand",
+        "primary": "Surgery Selection",
+        "secondary": "5",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.817"
+    },
+    {
+        "id": 1267,
+        "typeId": 31500,
+        "type": "PediatricOrthopedicManufacturer",
+        "primary": "OrthoPediatrics",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.833"
+    },
+    {
+        "id": 1268,
+        "typeId": 32000,
+        "type": "SpinalSystem",
+        "primary": "OrthoPediatrics",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.833"
+    },
+    {
+        "id": 1269,
+        "typeId": 32500,
+        "type": "SpinalFusionDeviceInventoryStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.833"
+    },
+    {
+        "id": 1270,
+        "typeId": 32500,
+        "type": "SpinalFusionDeviceInventoryStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.833"
+    },
+    {
+        "id": 1271,
+        "typeId": 32500,
+        "type": "SpinalFusionDeviceInventoryStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.837"
+    },
+    {
+        "id": 1272,
+        "typeId": 33000,
+        "type": "SpinalRodMaterial",
+        "primary": "CoCr",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.837"
+    },
+    {
+        "id": 1273,
+        "typeId": 33000,
+        "type": "SpinalRodMaterial",
+        "primary": "Titanium",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.837"
+    },
+    {
+        "id": 1274,
+        "typeId": 33000,
+        "type": "SpinalRodMaterial",
+        "primary": "Undefined",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.837"
+    },
+    {
+        "id": 1275,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "BandLoc",
+        "secondary": "BandLoc",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1276,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Connector",
+        "secondary": "Connector",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1286,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Domino",
+        "secondary": "Domino",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.843"
+    },
+    {
+        "id": 1277,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Hook",
+        "secondary": "Hook",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1287,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Hourglass",
+        "secondary": "Hourglass",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.843"
+    },
+    {
+        "id": 1278,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Instrument",
+        "secondary": "Instrument",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1289,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "None",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.847"
+    },
+    {
+        "id": 1279,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Rod",
+        "secondary": "Rod",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1282,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Screw",
+        "secondary": "Screw",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1283,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Screw Body Extension",
+        "secondary": "Screw Body Extension",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.843"
+    },
+    {
+        "id": 1284,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Screw Cap",
+        "secondary": "Screw Cap",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.843"
+    },
+    {
+        "id": 1280,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "SRod",
+        "secondary": "S-Rod",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1281,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Transition Rod",
+        "secondary": "Transition Rod",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.84"
+    },
+    {
+        "id": 1285,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Tray",
+        "secondary": "Tray",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.843"
+    },
+    {
+        "id": 1288,
+        "typeId": 33500,
+        "type": "SpinalFusionDeviceType",
+        "primary": "Wedding Band",
+        "secondary": "Wedding Band",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.843"
+    },
+    {
+        "id": 1291,
+        "typeId": 34000,
+        "type": "SpinalHookTexture",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.847"
+    },
+    {
+        "id": 1290,
+        "typeId": 34000,
+        "type": "SpinalHookTexture",
+        "primary": "Smooth",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.847"
+    },
+    {
+        "id": 1292,
+        "typeId": 34000,
+        "type": "SpinalHookTexture",
+        "primary": "Undefined",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.847"
+    },
+    {
+        "id": 1294,
+        "typeId": 34500,
+        "type": "SpinalLead",
+        "primary": "Double",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.85"
+    },
+    {
+        "id": 1295,
+        "typeId": 34500,
+        "type": "SpinalLead",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.85"
+    },
+    {
+        "id": 1293,
+        "typeId": 34500,
+        "type": "SpinalLead",
+        "primary": "Single",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.85"
+    },
+    {
+        "id": 1296,
+        "typeId": 34500,
+        "type": "SpinalLead",
+        "primary": "Undefined",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.85"
+    },
+    {
+        "id": 1299,
+        "typeId": 35000,
+        "type": "SpinalBodyRigidity",
+        "primary": "None",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.85"
+    },
+    {
+        "id": 1297,
+        "typeId": 35000,
+        "type": "SpinalBodyRigidity",
+        "primary": "Polyaxial",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.85"
+    },
+    {
+        "id": 1298,
+        "typeId": 35000,
+        "type": "SpinalBodyRigidity",
+        "primary": "Uniaxial",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.85"
+    },
+    {
+        "id": 1300,
+        "typeId": 35500,
+        "type": "SpinalCannulaType",
+        "primary": "Cannulated",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.853"
+    },
+    {
+        "id": 1303,
+        "typeId": 35500,
+        "type": "SpinalCannulaType",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.853"
+    },
+    {
+        "id": 1301,
+        "typeId": 35500,
+        "type": "SpinalCannulaType",
+        "primary": "Solid",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.853"
+    },
+    {
+        "id": 1302,
+        "typeId": 35500,
+        "type": "SpinalCannulaType",
+        "primary": "Undefined",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.853"
+    },
+    {
+        "id": 1304,
+        "typeId": 36000,
+        "type": "SpinalLocation",
+        "primary": "Laminar",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.857"
+    },
+    {
+        "id": 1305,
+        "typeId": 36000,
+        "type": "SpinalLocation",
+        "primary": "Lumbar",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.857"
+    },
+    {
+        "id": 1309,
+        "typeId": 36000,
+        "type": "SpinalLocation",
+        "primary": "Other",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.857"
+    },
+    {
+        "id": 1306,
+        "typeId": 36000,
+        "type": "SpinalLocation",
+        "primary": "Pedicle",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.857"
+    },
+    {
+        "id": 1307,
+        "typeId": 36000,
+        "type": "SpinalLocation",
+        "primary": "Thoracic",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.857"
+    },
+    {
+        "id": 1308,
+        "typeId": 36000,
+        "type": "SpinalLocation",
+        "primary": "Undefined",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.857"
+    },
+    {
+        "id": 1312,
+        "typeId": 36500,
+        "type": "SpineReductionType",
+        "primary": "None",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.86"
+    },
+    {
+        "id": 1311,
+        "typeId": 36500,
+        "type": "SpineReductionType",
+        "primary": "NonReduction",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.86"
+    },
+    {
+        "id": 1310,
+        "typeId": 36500,
+        "type": "SpineReductionType",
+        "primary": "Reduction",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.86"
+    },
+    {
+        "id": 1315,
+        "typeId": 37000,
+        "type": "PatientIdentifier",
+        "primary": "EHR",
+        "secondary": "Electronic Health Record",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.863"
+    },
+    {
+        "id": 1314,
+        "typeId": 37000,
+        "type": "PatientIdentifier",
+        "primary": "EMR",
+        "secondary": "Electronic Medical Record",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.86"
+    },
+    {
+        "id": 1313,
+        "typeId": 37000,
+        "type": "PatientIdentifier",
+        "primary": "MRN",
+        "secondary": "Medical Record Number",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.86"
+    },
+    {
+        "id": 1316,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C1",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.863"
+    },
+    {
+        "id": 1317,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C2",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.863"
+    },
+    {
+        "id": 1318,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C3",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.867"
+    },
+    {
+        "id": 1319,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C4",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.867"
+    },
+    {
+        "id": 1320,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C5",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.867"
+    },
+    {
+        "id": 1321,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C6",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.867"
+    },
+    {
+        "id": 1322,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C7",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.87"
+    },
+    {
+        "id": 1323,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "C8",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.87"
+    },
+    {
+        "id": 1336,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "L1",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.877"
+    },
+    {
+        "id": 1337,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "L2",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.877"
+    },
+    {
+        "id": 1338,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "L3",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.877"
+    },
+    {
+        "id": 1339,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "L4",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.88"
+    },
+    {
+        "id": 1340,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "L5",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.88"
+    },
+    {
+        "id": 1324,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T1",
+        "secondary": "First thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.87"
+    },
+    {
+        "id": 1333,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T10",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.877"
+    },
+    {
+        "id": 1334,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T11",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.877"
+    },
+    {
+        "id": 1335,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T12",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.877"
+    },
+    {
+        "id": 1325,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T2",
+        "secondary": "Second thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.87"
+    },
+    {
+        "id": 1326,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T3",
+        "secondary": "Third thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.87"
+    },
+    {
+        "id": 1327,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T4",
+        "secondary": "Fourth thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.873"
+    },
+    {
+        "id": 1328,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T5",
+        "secondary": "Fifth thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.873"
+    },
+    {
+        "id": 1329,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T6",
+        "secondary": "Sixth thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.873"
+    },
+    {
+        "id": 1330,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T7",
+        "secondary": "Seventh thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.873"
+    },
+    {
+        "id": 1331,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T8",
+        "secondary": "Eighth thoracic vertebra",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.873"
+    },
+    {
+        "id": 1332,
+        "typeId": 37500,
+        "type": "SpinalVertebra",
+        "primary": "T9",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.873"
+    },
+    {
+        "id": 1343,
+        "typeId": 38000,
+        "type": "SpinalSide",
+        "primary": "Center",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.883"
+    },
+    {
+        "id": 1341,
+        "typeId": 38000,
+        "type": "SpinalSide",
+        "primary": "Left",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.88"
+    },
+    {
+        "id": 1342,
+        "typeId": 38000,
+        "type": "SpinalSide",
+        "primary": "Right",
+        "secondary": "",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.88"
+    },
+    {
+        "id": 1345,
+        "typeId": 38500,
+        "type": "SpinalFusionOpType",
+        "primary": "IntraOp",
+        "secondary": "Intraoperative",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.883"
+    },
+    {
+        "id": 1346,
+        "typeId": 38500,
+        "type": "SpinalFusionOpType",
+        "primary": "PostOp",
+        "secondary": "Postoperative",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.883"
+    },
+    {
+        "id": 1344,
+        "typeId": 38500,
+        "type": "SpinalFusionOpType",
+        "primary": "PreOp",
+        "secondary": "Preoperative",
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.883"
+    },
+    {
+        "id": 1349,
+        "typeId": 39000,
+        "type": "SpinalFusionDeviceStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.887"
+    },
+    {
+        "id": 1348,
+        "typeId": 39000,
+        "type": "SpinalFusionDeviceStatus",
+        "primary": "Implemented",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.887"
+    },
+    {
+        "id": 1347,
+        "typeId": 39000,
+        "type": "SpinalFusionDeviceStatus",
+        "primary": "Provisioned",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.887"
+    },
+    {
+        "id": 1350,
+        "typeId": 39500,
+        "type": "SystemType",
+        "primary": "BomSystem",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.89"
+    },
+    {
+        "id": 1351,
+        "typeId": 39500,
+        "type": "SystemType",
+        "primary": "None",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.89"
+    },
+    {
+        "id": 1352,
+        "typeId": 40000,
+        "type": "SystemStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.89"
+    },
+    {
+        "id": 1353,
+        "typeId": 40000,
+        "type": "SystemStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.89"
+    },
+    {
+        "id": 1354,
+        "typeId": 40000,
+        "type": "SystemStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.893"
+    },
+    {
+        "id": 1355,
+        "typeId": 40500,
+        "type": "BomStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.893"
+    },
+    {
+        "id": 1356,
+        "typeId": 40500,
+        "type": "BomStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.893"
+    },
+    {
+        "id": 1357,
+        "typeId": 40500,
+        "type": "BomStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.893"
+    },
+    {
+        "id": 1358,
+        "typeId": 41000,
+        "type": "BomSystemStatus",
+        "primary": "Active",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.897"
+    },
+    {
+        "id": 1359,
+        "typeId": 41000,
+        "type": "BomSystemStatus",
+        "primary": "Draft",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.897"
+    },
+    {
+        "id": 1360,
+        "typeId": 41000,
+        "type": "BomSystemStatus",
+        "primary": "InActive",
+        "secondary": null,
+        "ternary": null,
+        "isDeleted": false,
+        "dateCreated": "2024-03-06T07:44:57.897"
+    }
+]
+

@@ -1,0 +1,9 @@
+<div class="ln-hyperlink-menu-bar">
+  <ul class="ln-hyperlink-menu-bar-items">
+      @for (item of menu; track $index) {
+      <li class="ln-hyperlink-menu-bar-item">
+          <ln-hyperlink [item]="item"> {{item.name}} </ln-hyperlink>
+      </li>
+      }
+  </ul>
+</div>

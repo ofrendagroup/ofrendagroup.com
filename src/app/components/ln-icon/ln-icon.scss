@@ -1,0 +1,138 @@
+.ln-icon {
+    opacity: 1;
+
+    .hidden {
+        display: none;
+    }
+
+    i.fa-solid,
+    i.fa-regular {
+        font-family: "Font Awesome 6 Free";
+        font-style: normal;
+        font-weight: 900;
+        transition: background-color 0.5s ease;
+        text-rendering: auto;
+        text-transform: none;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        cursor: pointer;
+
+        &.disabled {
+            color: var(--color-text-disabled);
+            cursor: default;
+            opacity: 0.4;
+            pointer-events: none;
+            &:hover {
+                color: var(--color-text-disabled);
+            }
+        }
+
+        &.active {
+            color: var(--color-secondary);
+        }
+
+        &.blue {
+            color: var(--color-blue);
+        }
+
+        &.green {
+            color: var(--color-green);
+        }
+
+        &.red {
+            color: var(--color-red);
+        }
+
+        &.hidden {
+            display: none;
+        }
+
+        &.pad-left {
+            padding-left: 8px;
+        }
+
+        &.pad-right {
+            padding-right: 8px;
+        }
+
+        &.angle-up:before {
+            content: unquote("\"\\#{'f106'}\"");
+        }
+        &.wide-angle-down:before {
+            content: unquote("\"\\#{'f078'}\"");
+        }
+        &.wide-angle-up:before {
+            content: unquote("\"\\#{'f077'}\"");
+        }
+        &.angle-down:before {
+            content: unquote("\"\\#{'f107'}\"");
+        }
+        &.check:before {
+            content: unquote("\"\\#{'f00c'}\"");
+        }
+        &.xmark:before {
+            content: unquote("\"\\#{'f00d'}\"");
+        }
+        &.trashcan:before {
+            content: unquote("\"\\#{'f2ed'}\"");
+        }
+        &.square-check:before {
+            content: unquote("\"\\#{'f14a'}\"");
+        }
+        &.square-minus:before {
+            content: unquote("\"\\#{'f146'}\"");
+        }
+        &.square:before {
+            content: unquote("\"\\#{'f0c8'}\"");
+        }
+        &.success:before {
+            content: unquote("\"\\#{'f164'}\"");
+        }
+        &.error:before {
+            content: unquote("\"\\#{'21'}\"");
+        }
+        &.warning:before {
+            content: unquote("\"\\#{'f071'}\"");
+        }
+        &.info:before {
+            content: unquote("\"\\#{'f129'}\"");
+        }
+        &.circle-info:before {
+            content: unquote("\"\\#{'f05a'}\"");
+        }
+        &.zoom-in:before {
+            content: unquote("\"\\#{'f00e'}\"");
+        }
+        &.zoom-out:before {
+            content: unquote("\"\\#{'f010'}\"");
+        }
+        &.lock:before {
+            content: unquote("\"\\#{'f023'}\"");
+        }
+        &.lock-open:before {
+            content: unquote("\"\\#{'f3c1'}\"");
+        }
+        &.tools:before {
+            content: unquote("\"\\#{'f7d9'}\"");
+        }
+        &.stethoscope:before {
+            content: unquote("\"\\#{'f0f1'}\"");
+        }
+        &.chevron-up:before {
+            content: unquote("\"\\#{'f139'}\"");
+        }
+        &.chevron-down:before {
+            content: unquote("\"\\#{'f13a'}\"");
+        }
+        &.user:before {
+            content: unquote("\"\\#{'f007'}\"");
+        }
+        &.phone:before {
+            content: unquote("\"\\#{'f095'}\"");
+        }
+        &.envelop:before {
+            content: unquote("\"\\#{'f0e0'}\"");
+        }
+    }
+}

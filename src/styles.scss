@@ -1,0 +1,117 @@
+@import './scss/reset.scss';
+@import './scss/font-family.scss';
+@import './scss/font-awesome.scss';
+@import "../node_modules/@angular/cdk/overlay-prebuilt.css";
+
+
+:root {
+    --color-base-01: rgba(16,118,193,1);
+    --color-base-02: rgba(4,38,70,1);
+    --color-base-03: rgba(30,190,238,1);
+    --color-base-04: rgba(10,77,131,1);
+    --color-base-05: rgba(4,19,33,1);
+    --color-base-06: rgba(25,107,146,1);
+    --color-base-07: rgba(11,70,103,1);
+    --color-base-08: rgba(76,118,148,1);
+    --color-base-09: rgba(28,156,148,1);
+    --color-base-10: rgba(46,53,91,1);
+
+    --color-gray-100: #f8f9fa;
+    --color-gray-200: #e9ecef;
+    --color-gray-300: #dee2e6;
+    --color-gray-400: #ced4da;
+    --color-gray-500: #adb5bd;
+    --color-gray-600: #6c757d;
+    --color-gray-700: #495057;
+    --color-gray-800: #343a40;
+    --color-gray-900: #212529;
+
+    --color-primary: var(--color-base-01);
+    --color-secondary: var(--color-base-02);
+    --color-accent: var(--color-base-03);
+    --color-white: var(--color-gray-100);
+
+    --color-background: var(--color-white);
+    --color-text: var(--color-base-05);
+    --color-alt-text: var(--color-gray-100);
+    --color-text-disabled:  var(---color-gray-500);
+    --color-border:  var(---color-gray-800);
+
+    --color-blue: blue;
+    --color-green: green;
+    --color-red: red;
+    --color-black: var(--color-base-05);
+
+    --padding: 4px;
+    --radius: 6px;
+
+    //
+    // Font Awesome Free Fonts
+    //
+    --fa-free: "Font Awesome 6 Free";
+    --fa-brands: "Font Awesome 6 Brands";
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    caret-color: var(--color-white);
+}
+
+body {
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background: var(--color-background);
+    color: var(--color-text);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--color-gray-700);
+}
+
+p {
+    color: var(--color-text);
+}
+
+a {
+    font-size: small;
+}
+
+.cdk-visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  

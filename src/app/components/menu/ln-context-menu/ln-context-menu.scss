@@ -1,0 +1,43 @@
+@import "../../../scss/index";
+
+:host {
+}
+
+.ln-context-menu {
+    background-color: var(--color-primary-background-lighter);
+    border-radius: 2pt;
+    color: var(--color-white);
+    border: 1px solid rgba(241, 235, 235, 0.955);
+    padding: 4px;
+
+    ul.ln-context-menu-items {
+        @include flexbox-column();
+        width: 100%;
+
+        li.ln-context-menu-item {
+            height: 34px;
+            line-height: 30px;
+            font-size: 12px;
+            cursor: pointer;
+            padding: 0px 4px;
+
+            &:hover {
+              font-weight: 700;
+              color: var(--color-primary-accent);
+            }
+
+            &.hidden {
+                display: none;
+            }
+
+            &.disabled {
+                @include disabled();
+            }
+
+            &.icon {
+                width: 30px;
+                text-align: right;
+            }
+        }
+    }
+}

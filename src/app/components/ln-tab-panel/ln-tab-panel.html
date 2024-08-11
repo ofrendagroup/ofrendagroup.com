@@ -1,0 +1,23 @@
+<ng-template #defaultTemplate>
+    <ul class="ln-tab-panel-tabs">
+        @for (tab of tabs; track $index) {
+        <li
+            class="ln-tab-panel-tab"
+            (click)="handleTab(tab)"
+            [ngClass]="{ 'active': tab.active, 'disabled': tab.disabled }"
+        >
+            {{ tab.label }}
+        </li>
+        }
+    </ul>
+</ng-template>
+<div class="ln-tab-panel" [ngClass]="{ 'hidden': hidden, 'disabled': disabled }">
+    <div class="ln-tab-panel-container">
+        <div>
+            <ng-container *ngIf="template else defaultTemplate"></ng-container>
+        </div>
+        <div class="ln-tab-panel-content">
+            <ng-content></ng-content>
+        </div>
+    </div>
+</div>

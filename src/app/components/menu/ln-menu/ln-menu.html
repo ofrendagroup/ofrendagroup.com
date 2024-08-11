@@ -1,0 +1,9 @@
+<div class="ln-menu">
+    <ul class="ln-menu-items">
+        @for (item of menu; track $index) {
+        <li class="ln-menu-item">
+            <ln-menu-item [item]="item"> {{item.name}} </ln-menu-item>
+        </li>
+        }
+    </ul>
+</div>

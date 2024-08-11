@@ -1,0 +1,12 @@
+<div class="ln-hyperlink" 
+	[ngClass]="{ 'hidden': item?.hidden }">
+    <a
+        class="ln-hyperlink-atag"
+        [class.style]="item?.style"
+        [class.active]="item?.active"
+        [class.disabled]="item?.disabled"
+        (click)="handleClick($event)"
+    >
+        <ng-content></ng-content>
+    </a>
+</div>

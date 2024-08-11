@@ -1,0 +1,202 @@
+ //
+ // boolean()
+ //
+ @function boolean($value: false) {
+  @if $value == false or
+      $value == "" or
+      $value == "false" or
+      $value == 'false' or
+      $value == 0 {
+          @return false;
+      }
+  @return true;
+}
+ //
+ // calcRem()
+ //
+ @function calcRem($size: $font-size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+//
+// font-size
+//
+@mixin font-size($size: $font-size) {
+  font-size: $size;
+}
+
+//
+// border-radius
+//
+@mixin border-radius($radius: 2px) {
+  border-radius: $radius;
+}
+
+//
+// border
+//
+@mixin border($size: 1px, $style: solid, $color: $black) {
+  @include border-width($size $size $size $size);
+  @include border-style($style $style $style $style);
+  @include border-style($style $style $style $style);
+  @include border-color($style $style $style $style);
+}
+
+//
+// font-family
+//
+@mixin font-family($size: $font-size, $line-height: $font-size) {
+  font-family: $font-family;
+  @include font-size($size);
+}
+
+//
+// icon-family
+//
+@mixin icon-family($size: $font-size, $line-height: $font-size) {
+  font-family: $icon-font-family;
+  @include font-size($size);
+  line-height: 1;
+}
+
+//
+// disabled
+//
+@mixin disabled($opacity: 0.4, $color: var(--color-text-disabled), $background-color: transparent) {
+  background-color: $background-color;
+  color: $color;
+  cursor: default;
+  opacity: $opacity;
+  pointer-events: none;
+  &:hover {
+    color:$color;
+  }
+}
+
+//
+// user-select
+//
+@mixin user-select($option: none) {
+  -moz-user-select: $option;
+  -khtml-user-select: $option;
+  -webkit-user-select: $option;
+  -ms-user-select: $option;
+  user-select: $option;
+}
+
+//
+// ellipsis
+//
+@mixin ellipsis($truncation-boundary) {
+  max-width: $truncation-boundary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+//
+// scroll-bar
+//
+ @mixin scroll-bar($state: none) {
+  -ms-overflow-style: $state;  // IE 10+
+  scrollbar-width: $state;  // Firefox
+
+  ::-webkit-scrollbar {
+    display: $state;  // Safari and Chrome
+  }
+}
+
+//
+// opacity
+//
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+//
+// box-shadow
+//
+@mixin box-shadow(
+  $offset-x: 0px,
+  $offset-y: 1px,
+  $blur-radius: 10px,
+  $color: rgba(0,0,0,.075),
+  $inset: inset) {
+  -webkit-box-shadow: $offset-x $offset-y $blur-radius $color #{$inset};
+  -moz-box-shadow: $offset-x $offset-y $blur-radius $color #{$inset};
+  box-shadow: $offset-x $offset-y $blur-radius $color #{$inset};
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+// box-shadow: 0 0 2px 0 rgba(27, 37, 50, 0.28);
+// -webkit-box-shadow: 0 0 2px 0 rgba(27, 37, 50, 0.28);
+//
+// label
+//
+@mixin label($backgroundColor: transparent, $color: var(--color-gray), $font-size: 16px) {
+  @include user-select();
+  background-color: $backgroundColor;
+  font-size: $font-size;
+  font-weight: 500;
+  color: $color;
+  padding: 0;
+  margin-bottom: 9px;
+  width: 100%;
+}
+//
+// input-box
+//
+@mixin input-box($padding: 0 28px 0 5px, $backgroundColor: $white, $input-height: 40px) {
+  @include box-shadow();
+  @include radius(3px);
+  background-color: $backgroundColor;
+  background-image: none;
+  border: 1px solid $grey-908;
+  color: $grey-908;
+  cursor: auto;
+  display: block;
+  height: $input-height;
+  letter-spacing: normal;
+  margin: 0;
+  overflow: visible;
+  padding: $padding;
+  text-align: start;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  user-select: text;
+  width: 100%;
+  word-spacing: normal;
+}
+
+//
+// input
+//
+@mixin input($height: 40px, $margin: 1px 0) {
+  @include font-family();
+  @include font-size();
+  border: 0;
+  margin: $margin;
+  height: $height;
+}
+
+//
+// transform-scale
+//
+@mixin transform-scale($scale: 1.0) {
+  -ms-transform: scale($scale); /* IE 9 */
+  -webkit-transform: scale($scale); /* Safari 3-8 */
+  transform: scale($scale);
+}
+
+//
+// transform-translate
+//
+@mixin transform-translate($tran1:-50%, $tran2: -50%) {
+  transform: translate($tran1, $tran2);
+  -ms-transform: translate($tran1, $tran2);
+  -webkit-transform: translate($tran1, $tran2);
+}

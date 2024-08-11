@@ -1,0 +1,19 @@
+<div class="ln-icon">
+    <i
+        [attr.class]="classList"
+        [attr.title]="title"
+        [ngStyle]="style"
+        [ngClass]="{
+          'hidden': hidden, 
+          'disabled': disabled, 
+          'active': active, 
+          'pad-left': padLeft, 
+          'pad-right': padRight
+        }"
+        [class.green]="color === 'green'"
+        [class.blue]="color === 'blue'"
+        [class.red]="color === 'red'"
+        (click)="handleOnClick($event)"
+    >
+    </i>
+</div>

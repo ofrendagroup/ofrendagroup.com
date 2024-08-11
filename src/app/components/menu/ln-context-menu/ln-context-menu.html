@@ -1,0 +1,11 @@
+<section class="ln-context-menu">
+  <ul class="ln-context-menu-items">
+    <li *ngFor="let item of menu?.items;let i=index" class="ln-context-menu-item" (click)="handleOnClick($event, item)"
+      [ngClass]="{
+      'disabled': item.disabled,
+      'hidden': item.hidden
+    }">
+      {{item.name}}
+    </li>
+  </ul>
+</section>

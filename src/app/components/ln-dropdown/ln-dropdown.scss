@@ -1,0 +1,242 @@
+@import "../../../scss/index";
+
+:host {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: auto;
+    outline: none;
+    position: relative;
+}
+
+::ng-deep {
+    .cdk-overlay-container {
+        display: block !important;
+    }
+}
+
+.ln-dropdown {
+    cursor: default;
+    transition: all 0.5s ease;
+    outline-color: transparent;
+    outline-width: 0px;
+
+    &.hidden {
+        display: none;
+    }
+
+    &.disabled {
+        @include disabled();
+    }
+
+    &:focus {
+        outline-color: transparent;
+        outline-width: 0px;
+    }
+
+    .ln-dropdown-label {
+        @include label();
+        @include flexbox-row();
+        justify-content: flex-start;
+        text-align: left;
+
+        &.hidden {
+            display: none;
+        }
+
+        &.disabled {
+            @include disabled();
+        }
+    }
+
+    .ln-dropdown-container {
+        width: 100%;
+
+        div.ln-dropdown-inner-container {
+            display: block;
+            position: relative;
+            width: 100%;
+
+            &.fixation-dialogbox
+            {
+              min-width: 350px;
+              width: 350px;
+              max-width: 350px;
+            }
+
+            button.ln-dropdown-btn {
+                @include border-radius(4px);
+                @include user-select();
+                position: relative;
+                border: none;
+                cursor: pointer;
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                margin: 0;
+                outline: none;
+                overflow: hidden;
+                padding: 0 24px 0 8px;
+                text-align: left;
+                text-overflow: ellipsis;
+                transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+                    box-shadow 0.15s ease-in-out;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+                box-shadow: 0 0 2px 0 rgba(27, 37, 50, 0.28);
+                -webkit-box-shadow: 0 0 2px 0 rgba(27, 37, 50, 0.28);
+                background-color: rgba(246, 246, 246, 1);
+                border: 1px solid rgba(178, 178, 179, 0.28);
+                width: inherit;
+
+                &.disabled {
+                    @include disabled();
+                }
+
+                &:hover {
+                    box-shadow: 0 0 6px 0 var(--color-primary);
+                    -webkit-box-shadow: 0 0 6px 0 var(--color-primary);
+                }
+
+                &.dark {
+                    background-color: var(--color-primary-background-lighter);
+                    color: var(--color-white);
+                    border: 1px solid var(--color-gray);
+                }
+
+                &.dark-small {
+                    background-color: var(--color-primary-background-lighter);
+                    color: var(--color-white);
+                    height: 30px;
+                    line-height: 30px;
+                    width: 100px;
+                }
+
+                .ln-dropdown-icon {
+                    position: absolute;
+                    top: 0;
+                    right: 8px;
+                }
+            }
+        }
+    }
+}
+
+ul.ln-dropdown-items {
+    -webkit-transition: 0.5s;
+    border-radius: 0 1px 4px 4px;
+    margin: 1px;
+    min-width: 100px;
+    max-width: inherit;
+    width: 100%;
+    max-height: calc((34px * 4) + 4px * 4);
+    padding: 8px 4px;
+    transition: 0.5s;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: rgba(246, 246, 246, 1);
+    border: 1px solid rgba(178, 178, 179, 0.28);
+
+    &.open {
+        display: block;
+    }
+
+    &:hover {
+        box-shadow: 0 0 6px 0 var(--color-primary);
+        -webkit-box-shadow: 0 0 6px 0 var(--color-primary);
+    }
+
+    &.dark {
+        background-color: var(--color-primary-background-lighter);
+        color: var(--color-white);
+    }
+
+    &.dark-small {
+        background-color: var(--color-primary-background-lighter);
+        color: var(--color-white);
+        width: 100px;
+    }
+
+    li.ln-dropdown-item {
+        display: block;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        text-align: left;
+        height: 34px;
+        line-height: 32px;
+        color: var(--color-white);
+        list-style-position: inside;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        // Add this to your code
+        width: 100%;
+        table-layout: fixed;
+
+        &.disabled {
+            pointer-events: none;
+            color: var(--color-grey);
+            &.hover {
+                color: var(--color-grey);
+            }
+        }
+
+        &:hover {
+            background-color: var(--color-gray-100);
+            color: var(--color-black);
+        }
+
+        &.indicator::before {
+            content: "";
+            border: 2px solid var(--color-primary-accent);
+            border-radius: 0px 5px 5px 0px;
+            height: 100%;
+            margin-right: 10px;
+        }
+
+        &.border-left::before {
+            content: "";
+            border: 2px solid transparent;
+            border-radius: 0px 5px 5px 0px;
+            height: 100%;
+            margin-right: 10px;
+        }
+    }
+
+    .ln-dropdown-item-icon-container {
+        min-width: 20px;
+        align-items: center;
+        justify-content: center;
+        &.right {
+            height: auto;
+            order: 2;
+        }
+    }
+    .ln-dropdown-item-icon {
+        &.right {
+            height: auto;
+            order: 2;
+        }
+    }
+
+    .ln-dropdown-item-label {
+        flex: auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        //color: var(--color-black);
+        background-color: transparent;
+
+        &.left {
+            order: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            direction: rtl;
+        }
+    }
+}

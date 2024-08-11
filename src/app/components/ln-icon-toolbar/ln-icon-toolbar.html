@@ -1,0 +1,13 @@
+<div class="ln-social-media-bar">
+    <ul class="ln-social-media-bar-items">
+        @for (item of items; track $index) {
+        <li class="ln-social-media-bar-item" (click)="handleOnClick(item)">
+            <ln-icon 
+            [name]="item.name" 
+            [style]="item.style" 
+            [hidden]="item.hidden" 
+            [disabled]="item.disabled"></ln-icon>
+        </li>
+        }
+    </ul>
+</div>

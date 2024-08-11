@@ -1,0 +1,32 @@
+:host
+{
+  width: 100%;
+  //border: 1px solid red;
+}
+
+.ln-social-media-bar
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  justify-content: center;
+  width: 100%;
+  height: 32px;
+
+  ul.ln-social-media-bar-items
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    li.ln-social-media-bar-item
+    {
+      padding: 0 4px;
+      min-width: 32px;
+      width: auto;
+      cursor:default;
+      text-align: center;
+    }
+  }
+} 

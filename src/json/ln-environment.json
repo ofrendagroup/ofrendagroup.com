@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Local",
+        "hostname": "localhost",
+        "authentication": {
+            "authority": "",
+            "authorizationUrl": "",
+            "baseUrl": "http://{hostname}:2400",
+            "clientId": "",
+            "issuer": "",
+            "jwks": "",
+            "logoutRedirectUrl": "",
+            "redirectUrl": "http://{hostname}:2400",
+            "disable": false
+        },
+        "endpoints": {
+            "api": {
+                "url": "localhost",
+                "port": "7295"
+            }
+        },
+        "tags": {}
+    },
+    {
+        "name": "Development",
+        "hostname": "opplaybookuidev.azurewebsites.net",
+        "authentication": {
+            "authority": "",
+            "authorizationUrl": "",
+            "baseUrl": "http://{hostname}:2400",
+            "clientId": "",
+            "issuer": "",
+            "jwks": "",
+            "logoutRedirectUrl": "",
+            "redirectUrl": "http://{hostname}",
+            "disable": false
+        },
+        "endpoints": {
+            "api": {
+                "url": ""
+            }
+        },
+        "tags": {}
+    },
+    {
+        "name": "QA",
+        "hostname": "",
+        "authentication": {
+            "authority": "",
+            "authorizationUrl": "",
+            "baseUrl": "http://{hostname}",
+            "clientId": "",
+            "issuer": "",
+            "jwks": "",
+            "logoutRedirectUrl": "",
+            "redirectUrl": "http://{hostname}",
+            "disable": false
+        },
+        "endpoints": {
+            "api": {
+                "url": ""
+            }
+        },
+        "tags": {}
+    },
+    {
+        "name": "UAT",
+        "hostname": "",
+        "authentication": {
+            "authority": "",
+            "authorizationUrl": "",
+            "baseUrl": "http://{hostname}",
+            "clientId": "",
+            "issuer": "",
+            "jwks": "",
+            "logoutRedirectUrl": "",
+            "redirectUrl": "http://{hostname}",
+            "disable": false
+        },
+        "endpoints": {
+            "api": {
+                "url": ""
+            }
+        },
+        "tags": {}
+    }
+]
