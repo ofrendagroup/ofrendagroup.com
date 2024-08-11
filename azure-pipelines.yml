@@ -1,0 +1,41 @@
+trigger:
+  branches:
+    include:
+      - develop
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  angularAppName: 'my-angular-app'
+  containerRegistry: 'crofrendagroup.azurecr.io'
+  imageName: 'ofrendagroup-web'
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install -g @angular/cli
+      npm install
+    displayName: 'Install Angular CLI and dependencies'
+
+  - script: |
+      ng build --configuration production
+    displayName: 'Build Angular Application'
+
+  - task: Docker@2
+    inputs:
+      containerRegistry: '$(containerRegistry)'
+      repository: '$(imageName)'
+      command: 'buildAndPush'
+      Dockerfile: 'Dockerfile'
+      tags: |
+        latest
+        $(Build.BuildId)
+    displayName: 'Build and Push Docker Image'
+
+  - script: echo "Build and push completed successfully"
+    displayName: 'Confirmation Step'
