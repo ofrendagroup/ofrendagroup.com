@@ -7,8 +7,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  angularAppName: 'my-angular-app'
-  containerRegistry: 'crofrendagroup.azurecr.io'
+  angularAppName: 'frendagroup-web'
+  containerRegistry: 'acr-ofrendagroup'
   imageName: 'ofrendagroup-web'
 
 steps:
