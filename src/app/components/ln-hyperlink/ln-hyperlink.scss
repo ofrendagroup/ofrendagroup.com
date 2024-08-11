@@ -22,15 +22,15 @@
     &:hover,
     &:focus {
       cursor: pointer;
-      color: var(--color-primary);
+      color: var(--color-primary-accent);
     }
 
     &:visited {
-      color: var(--color-black);
+      color: var(--color-white);
     }
 
     &.active {
-     color: var(--color-black);
+     color: var(--color-white);
     }
     &.disabled {
       @include disabled();

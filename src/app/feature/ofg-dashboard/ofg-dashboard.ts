@@ -1,5 +1,5 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 //
 // AppStore
 //
@@ -8,16 +8,15 @@ import { AppStore } from '@store/app.store';
 // Components
 //
 import { LnBanner } from '@components/ln-banner/ln-banner';
-import { LnKnowledge } from '@components/ln-knowledge/ln-knowledge';
 
 @Component({
     standalone: true,
-    selector: 'ln-home',
-    imports: [CommonModule, LnBanner, LnKnowledge],
-    templateUrl: './ln-home.html',
-    styleUrl: './ln-home.scss',
+    selector: 'ofg-dashboard',
+    imports: [RouterOutlet, LnBanner],
+    templateUrl: './ofg-dashboard.html',
+    styleUrl: './ofg-dashboard.scss',
 })
-export class LnHome {
+export class OfgDashboard {
     //
     // Public Variables
     //

@@ -6,11 +6,12 @@ import {
   OnInit,
   Output,
 } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { Action } from '@lernender/core';
 
 @Component({
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   selector: 'ln-hyperlink',
   templateUrl: 'ln-hyperlink.html',
   styleUrls: ['ln-hyperlink.scss'],

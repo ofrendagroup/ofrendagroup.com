@@ -10,7 +10,7 @@
     "content"
     "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-rows: 150px 1fr 50px;
     grid-column-gap: 0px;
     grid-row-gap: 4px;
     height: 100vh;
@@ -27,19 +27,52 @@
     label {
       margin: 0;
       padding: 0;
-      font-size: 1.5em;
+      font-size: 1.0em;
       font-weight: bold;
-      color: var(--color-black);
+      color: var(--color-white);
+      width: 180px;
+      line-height: 30px;
+    }
+
+    ul.app-header-menu-items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li.app-header-menu-item {
+        margin: 0;
+        padding: 0;
+        font-size: 1.0em;
+        font-weight: bold;
+        color: var(--color-white);
+        line-height: 30px;
+        cursor: pointer;
+        margin-left: 20px;
+      }
+
+      li.app-header-menu-item:hover {
+        color: var(--color-gray-500);
+      }
+    }
+    a {
+      color: var(--color-white)
     }
   }
 
   .app-content {
     grid-area: content;
+
+
   }
 
   .app-footer {
     grid-area: footer;
-    color: var(--color-black);
+    color: var(--color-white);
     display: flex;
     flex-direction: row;
     align-items: center;

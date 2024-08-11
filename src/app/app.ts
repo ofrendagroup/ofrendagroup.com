@@ -1,6 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { provideAnimations } from '@angular/platform-browser/animations';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
 //
 // AppStore
 //
@@ -18,7 +18,7 @@ import { LnHyperLink } from './components/ln-hyperlink/ln-hyperlink';
 //
 // Features
 //
-import { LnDashboard } from '@feature/ln-dashboard/ln-dashboard';
+import { OfgDashboard } from '@feature/ofg-dashboard/ofg-dashboard';
 //
 // Libraries
 //
@@ -32,11 +32,12 @@ import { SocialMedia } from '@model/socialMedia';
 // Component
 //
 import { LnJsonService } from '@service/ln-json/ln-json.service';
+import { LnHyperlinkMenu } from '@components/menu/ln-hyperlink-menu/ln-hyperlink-menu';
 
 @Component({
     standalone: true,
     selector: 'ofg-app',
-    imports: [RouterOutlet, LnDashboard, LnMenu, LnIconToolBar, LnHyperLink],
+    imports: [RouterOutlet, RouterModule, LnHyperlinkMenu, LnIconToolBar, LnHyperLink, RouterLink],
     templateUrl: './app.html',
     styleUrl: './app.scss',
     providers: [AppStore, provideAnimations(), LnJsonService],
@@ -47,13 +48,12 @@ export class AppComponent {
     //
     public readonly appStore = inject(AppStore);
 
-    public menu: Menu[] = [];
+    public menu: Action[] = [];
     public socialMediaIcons: Icon[] = [];
     //
     // Constructor
     //
-    public constructor() {
-    }
+    public constructor() {}
     //
     // ngOnInit
     //
@@ -62,6 +62,18 @@ export class AppComponent {
         // Setup Dynamic Menu
         //
         this.menu = [
+            new Action({
+                name: 'Products',
+                routerLink: ['/product'],
+            }),
+            new Action({
+                name: 'About',
+                routerLink: ['/about'],
+            }),
+            new Action({
+                name: 'Contact',
+                routerLink: ['/contact'],
+            }),
         ];
         //
         // Setup Social media Icons

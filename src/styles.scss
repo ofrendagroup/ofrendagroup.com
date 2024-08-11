@@ -5,16 +5,11 @@
 
 
 :root {
-    --color-base-01: rgba(16,118,193,1);
-    --color-base-02: rgba(4,38,70,1);
-    --color-base-03: rgba(30,190,238,1);
-    --color-base-04: rgba(10,77,131,1);
-    --color-base-05: rgba(4,19,33,1);
-    --color-base-06: rgba(25,107,146,1);
-    --color-base-07: rgba(11,70,103,1);
-    --color-base-08: rgba(76,118,148,1);
-    --color-base-09: rgba(28,156,148,1);
-    --color-base-10: rgba(46,53,91,1);
+    --color-base-01: rgb(255, 255, 255, 1);
+    --color-base-02: rgb(231, 209, 182, 1);
+    --color-base-03: rgb(162, 103, 52, 1);
+    --color-base-04: rgb(52, 71, 52, 1);
+    --color-base-05: rgb(0, 0, 0, 1);
 
     --color-gray-100: #f8f9fa;
     --color-gray-200: #e9ecef;
@@ -26,13 +21,13 @@
     --color-gray-800: #343a40;
     --color-gray-900: #212529;
 
-    --color-primary: var(--color-base-01);
+    --color-primary: var(--color-base-03);
     --color-secondary: var(--color-base-02);
-    --color-accent: var(--color-base-03);
-    --color-white: var(--color-gray-100);
+    --color-accent: var(--color-base-02);
+    --color-white: var(--color-base-01);
 
-    --color-background: var(--color-white);
-    --color-text: var(--color-base-05);
+    --color-background: var(--color-base-03);
+    --color-text: var(--color-white);
     --color-alt-text: var(--color-gray-100);
     --color-text-disabled:  var(---color-gray-500);
     --color-border:  var(---color-gray-800);

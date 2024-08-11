@@ -1,20 +1,30 @@
 <main class="app">
     <div class="app-container">
         <div class="app-header">
-            <label>{{appStore.company().toLocaleLowerCase()}}</label>
-            <ln-menu [menu]="menu"></ln-menu>
+            <label>
+                <img src="../assets/images/logo.png" alt="logo" class="app-logo" />
+                {{appStore.company().toLocaleLowerCase()}}, LLC</label
+            >
+            <!-- <ul class="app-header-menu-items">
+                <li class="app-header-menu-item"><a [routerLink]="'home'" routerLinkActive="router-link-active">Home</a></li>
+                <li class="app-header-menu-item"><a [routerLink]="'product'" routerLinkActive="router-link-active">Product</a></li>
+                <li class="app-header-menu-item"> <a [routerLink]="'about'" routerLinkActive="router-link-active">About</a></li>
+                <li class="app-header-menu-item"><a [routerLink]="'contact'" routerLinkActive="router-link-active">Contact</a></li>
+            </ul> -->
         </div>
         <div class="app-content">
-            <router-outlet />
+            <router-outlet></router-outlet>
         </div>
         <div class="app-footer">
             <ul class="app-footer-items">
-                <li class="app-footer-item">© 2024 {{appStore.company().toLocaleLowerCase()}}, LLC all rights reserved</li>
+                <li class="app-footer-item">
+                    © 2024 {{appStore.company().toLocaleLowerCase()}}, LLC all rights reserved
+                </li>
                 <li class="app-footer-item">
                     <ul class="app-icon-items">
                         <li class="app-icon-item">
                             <svg
-                                fill="#6c757d" 
+                                fill="#fff"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512"
                                 class="facebook"
@@ -28,7 +38,7 @@
                         </li>
                         <li class="app-icon-item">
                             <svg
-                                fill="#6c757d" 
+                                fill="#fff"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512"
                                 class="twitter"
@@ -42,7 +52,7 @@
                         </li>
                         <li class="app-icon-item">
                             <svg
-                                fill="#6c757d" 
+                                fill="#fff"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512"
                                 class="linkedin"
@@ -56,7 +66,7 @@
                         </li>
                         <li class="app-icon-item">
                             <svg
-                                fill="#6c757d" 
+                                fill="#fff"
                                 height="24px"
                                 width="28px"
                                 viewBox="0 0 512 512"

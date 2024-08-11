@@ -2,6 +2,7 @@
 	[ngClass]="{ 'hidden': item?.hidden }">
     <a
         class="ln-hyperlink-atag"
+        routerLink="{{item?.routerLink}}"
         [class.style]="item?.style"
         [class.active]="item?.active"
         [class.disabled]="item?.disabled"

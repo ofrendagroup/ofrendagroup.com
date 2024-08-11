@@ -3,7 +3,7 @@ import { Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output, S
 //
 // Components
 //
-import { LnMenuItem } from '@components/menu/ln-menu-item/ln-menu-item';
+
 //
 // Library
 //
@@ -13,7 +13,7 @@ import { Menu } from '@model/menu';
 @Component({
     standalone: true,
     selector: 'ln-menu',
-    imports: [CommonModule, LnMenuItem],
+    imports: [CommonModule],
     templateUrl: 'ln-menu.html',
     styleUrls: ['ln-menu.scss'],
 })
